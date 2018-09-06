@@ -1,0 +1,15 @@
+swagger: "2.0"
+definitions:
+  sort:
+    x-jdcloud-module: common
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of sorting requirements
+      direction:
+        type: string
+        description: Direction of sorting requirements
+        enum:
+          - asc
+          - desc
