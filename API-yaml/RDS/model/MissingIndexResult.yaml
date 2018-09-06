@@ -13,7 +13,7 @@ definitions:
         description: Table Name
       equalityColumns:
         type: string
-        description: A comma-separated list of columns that make up the equality predicate. The form of the predicate is as follows: <br>table.column =constant_value
+        description: "A comma-separated list of columns that make up the equality predicate. The form of the predicate is as follows: <br>table.column =constant_value"
       inequalityColumns:
         type: string
         description: A comma-separated list of the covered columns for the query, i.e., the fields following Include in the SQL statement that created the index

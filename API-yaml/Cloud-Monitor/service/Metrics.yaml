@@ -124,15 +124,15 @@ paths:
         in: query
         required: true
       - type: string
-        description: Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)
+        description: "Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)"
         name: startTime
         in: query
       - type: string
-        description: Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)
+        description: "Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)"
         name: endTime
         in: query
       - type: string
-        description: Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime
+        description: "Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime"
         name: timeInterval
         in: query
       - name: tags
@@ -193,19 +193,19 @@ paths:
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
       - type: string
-        description: Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)
+        description: "Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)"
         name: startTime
         in: query
       - type: string
-        description: Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)
+        description: "Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)"
         name: endTime
         in: query
       - type: string
-        description: Queried time interval, only supporting the minute-level, for example: 1m
+        description: "Queried time interval, only supporting the minute-level, for example: 1m"
         name: timeInterval
         in: query
       - type: string
-        description: Aggregation method: max avg min and so on
+        description: "Aggregation method: max avg min and so on"
         name: aggrType
         in: query
       responses:

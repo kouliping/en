@@ -275,7 +275,7 @@ paths:
   "/instancePrivateIpAddress":
     ###################### Batch query virtual machine primary network intranet address ######################
     get:
-      Description: "Batch query the intranet IP address of the virtual machine,  and query the network primary IP address in the primary network.""
+      Description: "Batch query the intranet IP address of the virtual machine,  and query the network primary IP address in the primary network."
       operationId: describeInstancePrivateIpAddress
       parameters:
         - name: pageNumber
@@ -801,7 +801,7 @@ paths:
           description: "Service unavailable"
 
   "/instances/{instanceId}:rebuildInstance":
-    The virtual machine uses the specified image to reset the virtual machine image ## ## The virtual machine uses the specified image to reset the virtual machine image ## ## ## ## ## ##
+    # The virtual machine uses the specified image to reset the virtual machine image # ## The virtual machine uses the specified image to reset the virtual machine image ## ## ## ## ## ##
     post:
       description: |
         Virtual machine uses the specified image to reset the virtual machine image<br>

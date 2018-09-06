@@ -20,7 +20,7 @@ definitions:
         description: data disk configuration
       deviceName:
         type: string
-        description: data disk logical attach point,  range of values: vda,  vdb,  vdc,  vdd,  vde,  vdb,  vdg,  vdh,  vdi
+        description: "data disk logical attach point,  range of values: vda,  vdb,  vdc,  vdd,  vde,  vdb,  vdg,  vdh,  vdi"
       noDevice:
         type: boolean
         description: |

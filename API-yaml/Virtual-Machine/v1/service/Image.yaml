@@ -68,7 +68,7 @@ paths:
         - name: imageSource
           in: query
           type: string
-          description: "image source,  if no ids parameter is specified,  this parameter is required to pass;" value range: public、shared、thirdparty、private"
+          description: "image source,  if no ids parameter is specified,  this parameter is required to pass; value range: public、shared、thirdparty、private"
         - name: platform
           in: query
           type: string

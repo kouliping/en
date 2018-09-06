@@ -204,7 +204,7 @@ paths:
           - name: name
             in: query
             type: string
-            description: "Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters."
+            description: 
           - name: description
             in: query
             type: string

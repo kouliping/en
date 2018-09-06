@@ -106,12 +106,12 @@ paths:
           required: false
           type: string
           in: query
-          Description: File name <br>]- MySQL: This parameter is not supported<br>- SQL Server: This parameter must be entered to specify the name of the file in the backup that needs to obtain the download link. The file name in the backup (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database.
+          Description: "File name <br>]- MySQL: This parameter is not supported<br>- SQL Server: This parameter must be entered to specify the name of the file in the backup that needs to obtain the download link. The file name in the backup (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database."
         - name: urlExpirationSecond
           required: false
           type: string
           in: query
-          description: Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours. <br>- MySQL: This parameter is not supported, and it can only be the default value	<br>- SQL Server: Support
+          description: "Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours. <br>- MySQL: This parameter is not supported, and it can only be the default value	<br>- SQL Server: Support"
       responses:
         200:
           description: OK

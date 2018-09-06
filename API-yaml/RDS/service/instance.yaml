@@ -92,19 +92,19 @@ paths:
                 properties:
                   startWindow:
                     type: string
-                    description: The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range.
+                    description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
                   retentionPeriod:
                     type: integer
                     description: The retention period of automatic backup, in days, defaults to 7 days, range is 7-730
                   cycleMode:
                     type: integer
-                    description: The cyclical pattern of automatic backup<br>1: indicates backup that the daily backup is full<br>2: indicates that the automatic backup is performed in full, incremental, such as the first day is full backup, then the second and third days are incremental backup; the fourth day is full backup, and so on.<br>- **SQL Server supports**<br>- **MySQL does not support **
+                    description: "The cyclical pattern of automatic backup<br>1: indicates backup that the daily backup is full<br>2: indicates that the automatic backup is performed in full, incremental, such as the first day is full backup, then the second and third days are incremental backup; the fourth day is full backup, and so on.<br>- **SQL Server supports**<br>- **MySQL does not support **"
                   backupBinlog:
                     type: string
-                    description: Whether to back up binlog<br>true: indicates backup<br>false: indicates no backup- <br>**SQL Server does not support**<br>- **MySQL supports**
+                    description: "Whether to back up binlog<br>true: indicates backup<br>false: indicates no backup- <br>**SQL Server does not support**<br>- **MySQL supports**"
   "/instances/{instanceId}:setBackupPolicy": #Modify Backup Policy
     post:
-      description: Modify the RDS instance backup policy. At present, only the user can modify the "start time window of the automatic backup" parameter and other parameters are not open for modification.
+      description: Modify the RDS instance backup policy. At present, only the user can modify the 'start time window of the automatic backup' parameter and other parameters are not open for modification.
       operationId: setBackupPolicy
       x-jdcloud-internal: true
       parameters:
@@ -116,13 +116,13 @@ paths:
             properties:
               startWindow:
                 type: string
-                description: The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range.
+                description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
       responses:
         200:
           description: OK
   "/instances/{instanceId}:setInstanceName": #Modify the instance name
     post:
-      description: Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only
+      description: "Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only"
       operationId: setInstanceName
       #x-jdcloud-internal: true
       parameters:
@@ -135,13 +135,13 @@ paths:
             properties:
               instanceName:
                 type: string
-                description: The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)
+                description: "The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)"
       responses:
         200:
           description: OK
   "/instances/{instanceId}:failoverInstance": #RDS Instance Failover
     post:
-      description: Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only
+      description: "Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only"
       operationId: failoverInstance
       #x-jdcloud-internal: true
       responses:
@@ -149,7 +149,7 @@ paths:
           description: OK
   "/instances/{instanceId}:rebootInstance": #Reboot RDS Instance
     post:
-      description: Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting.
+      description: "Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting."
       operationId: rebootInstance
       #x-jdcloud-internal: true
       parameters:
@@ -212,7 +212,7 @@ paths:
           required: true
           in: query
           type: string
-          description: The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition] (../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**
+          description: "The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition] (../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**"
         - name: instanceSpec
           required: true
           in: body

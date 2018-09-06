@@ -25,12 +25,12 @@ paths:
           required: false
           in: query
           type: string
-          description: The format of query start time of is: YYYY-MM-DD HH:mm:ss
+          description: "The format of query start time of is: YYYY-MM-DD HH:mm:ss"
         - name: endTime
           required: false
           in: query
           type: string
-          description: The format of query end time is: YYYY-MM-DD HH:mm:ss
+          description: "The format of query end time is: YYYY-MM-DD HH:mm:ss"
       responses:
         200:
           description: OK

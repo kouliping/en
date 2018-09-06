@@ -161,7 +161,7 @@ paths:
 ##########Obtain the machine specification list (Filter out the low-memory specifications; remove the ones inferior to quad-core.) ######
   "/instances":
        get:
-         description: "Obtain the machine specification list (Filter out the low-memory specifications; remove the ones inferior to quad-core.)" "
+         description: "Obtain the machine specification list (Filter out the low-memory specifications; remove the ones inferior to quad-core.)"
          operationId: getInstanceList
          responses:
            200:

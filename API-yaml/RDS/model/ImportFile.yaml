@@ -16,7 +16,7 @@ definitions:
         description: File Size, in Byte
       uploadTime:
         type: string
-        description: File upload completion time, format: YYYY-MM-DD HH:mm:ss
+        description: "File upload completion time, format: YYYY-MM-DD HH:mm:ss"
       isLocal:
         type: string
-        description: Whether it belongs to the current instance. <br> 1: Current instance; <br>0: It does not belong to current instance, and is a shared file
+        description: "Whether it belongs to the current instance. <br> 1: Current instance; <br>0: It does not belong to current instance, and is a shared file"

@@ -19,7 +19,7 @@ definitions:
         description: Capacity, in MB
       cacheInstanceStatus:
         type: string
-        description: Instance status, running: running, error: error, creating: pending, changing: changing, deleting: deleting
+        description: "Instance status, running: running, error: error, creating: pending, changing: changing, deleting: deleting"
       cacheInstanceDescription:
         type: string
         description: Instance Description

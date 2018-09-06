@@ -11,7 +11,7 @@ definitions:
         description: cloud disk service type,  value ssd or premium-hdd
       diskSizeGB:
         type: integer
-        Description: The size of the cloud disk service,  in unit of GiB;Value range[20, 1000] GB,  step size: 10G,  premium-hdd type value range[20, 3000] GB,  step size: 10G
+        Description: "The size of the cloud disk service,  in unit of GiB;Value range[20, 1000] GB,  step size: 10G,  premium-hdd type value range[20, 3000] GB,  step size: 10G"
       snapshotId:
         type: string
         description: Snapshot ID used to create cloud disk service
