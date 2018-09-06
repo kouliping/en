@@ -19,7 +19,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**description**|String|False||Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
-|**name**|String|False|||
+|**name**|String|False||Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline '_' and line-through '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 
 
 ## 返回参数
