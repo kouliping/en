@@ -2,16 +2,16 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Quota
-  description: interface related to quota
+  description: Quota APIs
 
 basePath: /regions/{regionId}
 
 paths:
   "/quotas":
-    ###################### Search Quota ######################
+    ###################### Query Quota ######################
     get:
       description: |
-        Query Quota,  Support: virtual machine,  Image,  key pair,  Template
+        Query quota, support: VM, image, key pair, template
       operationId: describeQuotas
       parameters:
         - name: filters
@@ -20,7 +20,7 @@ paths:
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: | 
-            resource Types-A resource type that supports multiple [instance,  keyair,  image,  instanceTemplate]
+            resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]
       responses:
         200:
           description: OK
@@ -30,7 +30,7 @@ paths:
                 properties:
                   quotas:
                     type: array
-                    description: quota list
+                    description: Quota list
                     items:
                       $ref: "../model/Quota.yaml#/definitions/quota"
               requestId:
@@ -49,18 +49,18 @@ paths:
     ###################### Modify Quota ######################
     patch:
       description: |
-        modify quotas,  this interface is an internal interface,  support: virtual machine,  image,  key pair,  template
+        Modify quotas; an internal API;  support: VM, image, key pair, template
       operationId: modifyQuota
       x-jdcloud-internal: true
       parameters:
         - name: resourceType
           in: query
           type: string
-          description: source type [instance, keypair, image, instanceTemplate]
+          description: Source type [instance, keypair, image, instanceTemplate]
         - name: limit
           in: query
           type: integer
-          description: upper quota limit
+          description: Upper quota limit
       responses:
         200:
           description: OK
@@ -82,4 +82,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Geo ID
+    description: Region ID
