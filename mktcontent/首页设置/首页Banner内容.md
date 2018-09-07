@@ -621,5 +621,35 @@
 		"id":"106",
 		"button_title":"查看详情",
 		"main_title":"云数据库 MariaDB"
+	},
+	{
+		"sub_title":"提供T3+优质机房，高可靠性电力及网络保障的托管服务",
+		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
+		"name":"云托管服务开放公测",
+		"id":"107",
+		"button_title":"查看详情",
+		"main_title":"云托管服务开放公测"
+	},
+	{
+		"sub_title":"高性能资源独享WAF，实现VPC边界和内部Web安全合规防护",
+		"image_Url":"//img1.jcloudcs.com/cms/52d0f88c-9469-4813-a56b-fdf44ef6ed6720180830191256.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
+		"name":"应用安全网关全新上线",
+		"id":"108",
+		"button_title":"查看详情",
+		"main_title":"应用安全网关全新上线"
+	},
+	{
+		"dynamic_image":"//img1.jcloudcs.com/cms/b2446640-69c6-42eb-b66c-8dde8e9d237020180831153207.png",
+		"name":"2018年京东云合作伙伴大会",
+		"id":"109",
+		"backgroud_image":"//img1.jcloudcs.com/cms/15a13e84-3647-43e2-89cc-f6b6eef704ac20180831153212.jpg"
+	},
+	{
+		"image_Url":"//img1.jcloudcs.com/cms/59dc6c66-5bbc-4638-9c24-febafd3c111b20180831162003.png",
+		"name":"2018年京东云合作伙伴大会",
+		"id":"110",
+		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
 	}
 ]
