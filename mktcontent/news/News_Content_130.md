@@ -1,0 +1,1 @@
+http://img1.jcloudcs.com/jdcloud-portal/News_Content_130
