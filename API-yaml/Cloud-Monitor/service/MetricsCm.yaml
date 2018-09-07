@@ -7,7 +7,7 @@ consumes:
 - application/json
 produces:
 - application/json
-############################Customized metric monitoring interface, reporting service corresponding to cm-put data##############################
+############################Customized metric monitoring API, reporting service corresponding to cm-put data##############################
 ###########################Internal domain name: cm-put.openapi.cn-north-1.jdcloud.com Gateway address: monitor.cn-north-1.jdcloud-api.com##############################
 ###########################Internal domain name: cm-put.openapi.cn-south-1.jdcloud.com Gateway address: monitor.cn-south-1.jdcloud-api.com##############################
 ###########################Internal domain name: cm-put.openapi.cn-east-1.jdcloud.com Gateway address: monitor.cn-east-1.jdcloud-api.com##############################
@@ -16,7 +16,7 @@ paths:
   /customMetrics:
     ###################### Report customized metric monitoring data of user ######################
     post:
-      description: The interface is the interface for customized metric monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. It can report original data and aggregated statistical data. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.
+      description: The API is for reporting the customized monitoring data, facilitating the user to report the collected time series data to the Cloud Monitor. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.
       summary: Report monitoring data of user
       operationId: putMetricData
       x-jdcloud-internal: false
@@ -35,7 +35,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
               error:
                 type: object
                 description: Error information
@@ -45,7 +45,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: All successful write-ins are true, or false
+                    description: All successful write-ins are true, otherwise are false
                   errMetricDataList:
                     type: array
                     items:

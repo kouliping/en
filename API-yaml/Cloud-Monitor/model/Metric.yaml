@@ -6,7 +6,7 @@ definitions:
     properties:
       calculateUnit:
         type: string
-        description: Computing unit of indicator, such as bit/s, %, k
+        description: Computing unit of metric, such as bit/s, %, k
       metric:
         type: string
         description: English identifier of monitoring item

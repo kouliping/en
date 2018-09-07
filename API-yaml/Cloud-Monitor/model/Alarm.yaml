@@ -28,7 +28,7 @@ definitions:
       - times
     properties:
       calculation:
-        description: Statistical method must be consistent with the defined metric, with an optional list of values: avg, max, sum, min
+        description: Statistical method must be consistent with the defined metric, with a list of optional values: avg, max, sum, min
         type: string
       contactGroups:
         description: Contact group notified by alarm rules must be already created on the console, for example“[‘contact group 1’, ‘contact group 2’]”
@@ -41,19 +41,19 @@ definitions:
         items:
           type: string
       downSample:
-        description: Sampling frequency, some metrics support setting downSample, through <a href=”https://www.jdcloud.com/help/detail/2791/isCatalog/1”>[Query indicator list of available creating monitoring rules]</a>Interface is available for viewing.
+        description: Sampling frequency, some metrics support setting downSample, through <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1">[Query metric list to create monitoring rules available]</a>API is available for viewing.
         type: string
       metric:
-        description: Please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1”> for values[Query indicator list of available creating monitoring rules]]</a> metric field of interface
+        description: For values, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1"> [Query metric list to create monitoring rules available]</a> metric field of API
         type: string
       noticePeriod:
-        description: Notification period unit: hour
+        description: Notification period Unit: hour
         type: integer
       operation:
         description: 报警比较符，只能为以下几种<=,<,>,>=,==,!=
         type: string
       period:
-        description: Statistical period, unit in minutes, currently supported value: 2, 5, 15, 30, 60
+        description: Statistical period, unit is minute, currently supported value: 2, 5, 15, 30, 60
         type: integer
       resourceIds:
         description: Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example"['resourceId1','resourceId2']"
@@ -61,14 +61,14 @@ definitions:
         items:
           type: string
       serviceCode:
-        description: Product name, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1”> for values[Query indicator list of available creating monitoring rules]]</a> serviceCode field of interface
+        description: For values of product name, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1">[Query metric list to create monitoring rules available ]</a> serviceCode field of API
         type: string
       threshold:
-        description: Alarm threshold, currently, only numeric type functions are available
+        description: Alarm threshold, currently, only numeric type is available
         type: number
         format: double
       times:
-        description: Continuous periods, alarms are made when several statical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5
+        description: Continuous period, alarms are made when several statistical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5
         type: integer
 
   updateAlarmBody:
@@ -85,15 +85,15 @@ definitions:
       - times
     properties:
       calculation:
-        description: Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum
+        description: Statistical method: average value=avg, maximum value=max, minimum value=min, and summation=sum
         type: string
       contactGroups:
-        description: Contact group notified, for example [“contact group 1”, “contact group 2”]
+        description: Notify contact group, for example [“contact group 1”, “contact group 2”]
         type: array
         items:
           type: string
       contactPersons:
-        description: Contact notified, for example“[‘contact 1’, ‘contact 2’]”
+        description: Notify contact, for example“[‘contact 1’, ‘contact 2’]”
         type: array
         items:
           type: string
@@ -101,10 +101,10 @@ definitions:
         description: Sampling frequency
         type: string
       metric:
-        description: Query Metric field returned by list interface of available monitoring item based on the product line
+        description: Query Metric field returned by list API of available monitoring item based on the product line
         type: string
       noticePeriod:
-        description: Notification period unit: hour
+        description: Notification period Unit: hour
         type: integer
       operation:
         description: '>=、>、<、<=、==、!='
@@ -132,17 +132,17 @@ definitions:
         description: Statistical method: average value=avg, maximum value=max, minimum value=min,
         type: string
       contactGroups:
-        description: Contact group notified, for example [“contact group 1”, “contact group 2”]
+        description: Notify contact group, for example [“contact group 1”, “contact group 2”]
         type: array
         items:
           type: string
       contactPersons:
-        description: Contact notified, for example“[‘contact 1’, ‘contact 2’]”
+        description: Notify contact, for example“[‘contact 1’, ‘contact 2’]”
         type: array
         items:
           type: string
       deleted:
-        description: Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the interface for querying rules
+        description: Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the API for querying rules
         type: integer
       enabled:
         description: Enable&Disable 1 Enable, 0 Disable
@@ -157,7 +157,7 @@ definitions:
         description: Name of rule id monitoring item
         type: string
       noticePeriod:
-        description: Notification period unit: hour
+        description: Notification period Unit: hour
         type: integer
       noticeTime:
         description: Alarm time
@@ -202,12 +202,12 @@ definitions:
         description: Statistical method: average value=avg, maximum value=max, minimum value=min,
         type: string
       contactGroups:
-        description: Contact group notified, for example [“contact group 1”, “contact group 2”]
+        description: Notify contact group, for example [“contact group 1”, “contact group 2”]
         type: array
         items:
           type: string
       contactPersons:
-        description: Contact notified, for example“[‘contact 1’, ‘contact 2’]”
+        description: Notify contact, for example“[‘contact 1’, ‘contact 2’]”
         type: array
         items:
           type: string
@@ -228,7 +228,7 @@ definitions:
         description: Name of rule id monitoring item
         type: string
       noticePeriod:
-        description: Notification period unit: hour
+        description: Notification period Unit: hour
         type: integer
       noticeTime:
         description: Alarm time  ,  this field is valid when querying the alarming rule

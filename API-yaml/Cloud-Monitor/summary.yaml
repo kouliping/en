@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: Cloud Monitor APIs, mainly comprising create, read, update, delete of monitoring rules and query of monitoring item data
+  description: Cloud Monitor APIs, mainly comprising creation, deletion, change and review of monitoring rules and query of monitoring item data
   title: Cloud Monitor
   version: "v1"
 host: monitor.jdcloud-api.com
