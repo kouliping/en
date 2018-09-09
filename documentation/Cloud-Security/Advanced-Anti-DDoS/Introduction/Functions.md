@@ -1,31 +1,31 @@
-# Product Features
+# Features
 
-The advanced anti-DDoS provides high-capacity attack protection, can effectively resist various large-traffic DDoS attacks, and supports the defense against attack of layer 3 to 7 layers.
+The Advanced Anti-DDoS provides high-capacity attack protection, can effectively resist various large-traffic DDoS attacks, and supports the defense against attack of layer 3 to 7 layers.
 
 ## Main Functions of Advanced Anti-DDoS Include:
 
 ### 1. Management and configuration
-- Supports the creation of advanced anti-DDoS instance, and can manage the created advanced protection instance.
+- Supports the creation of Advanced Anti-DDoS instance, and can manage the created advanced protection instance.
 
-### 2. Supports forwarding configuration
-- Support the creation of non-web-based (IP address) and web-based (domain) forwarding rules;
-- Supports the forwarding configuration of TCP, UDP, HTTP and HTTPS protocols, websocket protocols, multiple-IP back-to-source, and domain name back-to-source.
+### 2. Supports Forwarding Setting
+- Support the creation of non-web service (IP address) and web service (domain) forwarding rules;
+- Supports the forwarding settings of TCP, UDP, HTTP and HTTPS protocols, websocket protocols, multiple-IP back-to-source, and domain name back-to-source.
 
 ### 3. Multiple protection configuration rules
 - Supports IP black list/white list, URL white list, CC automatic protection and custom protection configurations for fine protection.
-- Supports advanced web-based configurations such as non-standard port access, HTTP address forcible back-to-source, HTTP visit jump, etc.
+- Supports advanced Web Service configurations such as non-standard port access, HTTP address forcible back-to-source, HTTP visit jump, etc.
 
 ### 4. Flexible protection billing scheme
 - Supports elastic protection. Saves costs for you by billing by the actual attack bandwidth.
 
 ### 5. Quick access
-- Enables quick access to advanced anti-DDoS services in cname-based manner.
+- Enables quick access to Advanced Anti-DDoS services in cname-based manner.
 
 ### 6. Massive attack protection
-- Supports Telecom + Unicom + CMCC line, 400G of maximum single line capability, total defense capability of T level.
+- Supports Telecom + Unicom + CMCC's ISP line, 400G of maximum single ISP line capability, total defense capability of T level.
 
 ### 7. Accurate report display
-- Provides you with a comprehensive understanding of advanced anti-DDoS services by presenting demonstrations such as DDoS attack reports, forwarding traffic, CC reports, etc.
+- Provides you with a comprehensive understanding of Advanced Anti-DDoS services by presenting demonstrations such as DDoS attack reports, forwarding traffic, CC reports, etc.
 
 ### 8. Covered common attack types, see the following table:
 
@@ -41,8 +41,8 @@ The advanced anti-DDoS provides high-capacity attack protection, can effectively
 
 ## Related Reference
 
-- [Product Overview](../Product-Introduction/Overview.md)
-- [Product Specification](../Product-Introduction/Specification.md)
+- [What Is <Advanced Anti-DDoS>](../Product-Introduction/Overview.md)
+- [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

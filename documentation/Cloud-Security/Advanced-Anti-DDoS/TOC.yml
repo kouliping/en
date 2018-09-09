@@ -1,25 +1,25 @@
   name: Advanced Anti-DDoS
   href:
   items:
-  - name: Product Brief Introduction
+  - name: Introduction
     items:
-    - name: Product Overview
+    - name: What Is <Advanced Anti-DDoS>
       herf : Introduction/What-Is-Advanced-Anti-DDoS.md.md
-    - name: Core Concept
+    - name: Core Concepts
       herf: Introduction/Core-Concepts.md
     - name: Infrastructure
       herf: Introduction/Basic-Infrastructure.md
-    - name: Product Advantages
+    - name: Benefits
       herf: Introduction/Benefits.md
-    - name: Product Features
+    - name: Features
       herf: Introduction/Functions.md
-    - name: Product Specifications
+    - name: Specifications
       herf: Introduction/Specification.md
-    - name: Restraint Instructions
+    - name: Restrictions
       herf: Introduction/Restrictions.md
-    - name: Application Scenario 
+    - name: Application Scenarios 
       herf: Introduction/Application-Scenarios.md    
-  - name: Product Billing
+  - name: Pricing
     items:
     - name: Billing Overview
       herf: Pricing/Billing-Overview.md
@@ -29,17 +29,17 @@
       herf: Pricing/Price-Overview.md
     - name: Purchase Process
       herf: Pricing/Purchase-Process.md 
-    - name: Renewal Process
+    - name: Renew Process
       herf: Pricing/Renew-Process.md
-  - name: Start Guide
+  - name: Getting Started
     items:
-    - name: Product Overview
+    - name: What Is <Advanced Anti-DDoS>
       herf : Overview.md
     - name: Create Instance
       herf: Getting-Started/Create-Instance.md
-    - name: Non-web-based Forwarding Rules
+    - name: Non-web Service Forwarding Rules
       herf: Getting-Started/Non-Web-Service-Forwarding-Rule.md
-    - name: Web-based Forwarding Rules
+    - name: Web Service Forwarding Rules
       herf: Getting-Started/Web-Service-Forwarding-Rule.md
     - name: Release the Back-to-source IP
       herf: Getting-Started/Whitelist-local-IP-subnet.md
@@ -47,11 +47,11 @@
       herf: Getting-Started/Verify-Local-Settings.md
     - name: Update DNS Resolution
       herf: Getting-Started/Update-DNS-Settings.md
-  - name: Operation Guidelines
+  - name: Operation Guide
     items:
-    - name: Web-based Rule Settings
+    - name: Web Service Rule Settings
       items:
-        - name: Related Configurations of CC Protection Rules
+        - name: Related Configurations of CC Defense Rules
           herf: Operation-Guide/CC-Defense-Related.md
         - name: URL White List Configuration
           herf: Operation-Guide/URL-Whitelist-Rules-Setting.md
@@ -74,7 +74,7 @@
   - name: Tutorial
     items:
     status: 0    
-  - name: Frequently Questions
+  - name: FAQ
   herf: FAQ/FAQ.md
-  - name: Document History Records
+  - name: Document History
   href: Related-Resources/Document-History.md

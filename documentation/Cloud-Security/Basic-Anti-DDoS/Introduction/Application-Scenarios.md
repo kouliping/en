@@ -1,4 +1,4 @@
-# Application Scenario
+# Application Scenarios
 
 ** Below is a description of the application scenario for JD Cloud Basic Anti-DDoS: **
 

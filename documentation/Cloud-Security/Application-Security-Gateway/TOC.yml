@@ -1,28 +1,28 @@
   name: Application Security Gateway
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
-      - name: Product Overview
+      - name: What Is <Application Security Gateway>
         href: Introduction/What-Is-Application-Security-Gateway.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
+      - name: Features
         href: Introduction/Functions.md
-      - name: Restraint Instructions
+      - name: Restrictions
         href: Introduction/Restrictions.md
-        name: Product Specification
+        name: Specifications
         href: Specification.md  
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
-      - name: Purchase Procedure
+      - name: Purchase Process
         href: Pricing/Purchase-Process.md 
 
-  - name: Getting Started Guide
+  - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-free-trial-instance.md
@@ -62,12 +62,12 @@
           - name: Webpage Tamper-proofing          
             href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md     
       -             
-  - name: Best Practice
+  - name: Best Practices
     items:
     - name: Advanced Anti-DDoSB-Best Application Security Gateway Practice
       href: Best-Practices/Best-Practices.md
    
-  - name: Course
+  - name: Tutorial
     items:
     status: 0
   - name: Troubleshooting
@@ -84,14 +84,14 @@
       
   - name: SDK Reference
     href:
-  - name: User Agreement
+  - name: User Agreements
     status: 0
     items:      
   - name: Relevant Resources
     items:
-    - name: Document Historical Records
+    - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: Filing
+    - name: ICP Filing
       href:           
       status: 0        
     - name: Glossary

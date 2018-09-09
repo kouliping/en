@@ -1,6 +1,6 @@
-# Renewal Process
+# Renew Process
 
-In this paper, the entries of advanced anti-DDoS instance will be introduced.
+In this paper, the entries of Advanced Anti-DDoS instance will be introduced.
 
 
 ## Entry 1: [Advanced Anti-DDoS Console](https://ip-anti-console.jdcloud.com/instancelist)
@@ -19,7 +19,7 @@ In this paper, the entries of advanced anti-DDoS instance will be introduced.
 
    ![](../../../../image/Advanced%20Anti-DDoS/price03.png)
    
-3. At the "Renewal Management" page, click ** Advanced Anti-DDoS ** to view advanced anti-DDoS instances.
+3. At the "Renewal Management" page, click ** Advanced Anti-DDoS ** to view Advanced Anti-DDoS instances.
 4. Click ** Renew ** in the operation items to enter the "Renew" page and carry out the renewal
 
    ![](../../../../image/Advanced%20Anti-DDoS/price04.png)

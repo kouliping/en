@@ -10,7 +10,7 @@
 
 ​    **Security Analysis Report**: Security Analysis Report, main data source WAF engine protection data, BOT protection data and blocking management protection data will be added subsequently. It provides attack source TOP 10, attack path TOP 10 to make statistics of attack trends. It provides detailed log information so that attack source, attack event, request method, attack URI and false alarm action processing can be queried. After clicking false alarm, JD Cloud will analyze the log having false alarm generated so as to process and modify in time.
 
-​    **CC Protection Analysis Report**: Provide detailed CC attack trend analysis diagram, provide detailed log query so that source IP, start time, number and details of attack event can be queried.
+​    **CC defense Analysis Report**: Provide detailed CC attack trend analysis diagram, provide detailed log query so that source IP, start time, number and details of attack event can be queried.
 
 ​    **Customized Identity and Access Management Rule Report**: Analyze the report of created customized Identity and Access Management Rules to provide attack source TOP10 ranking, policy access number TOP10 ranking so as to provide a total hit number trend diagram. It provides detailed matching log to query.
 

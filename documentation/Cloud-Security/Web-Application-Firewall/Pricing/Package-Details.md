@@ -9,7 +9,7 @@
 | Web Page Tamper                  | Support       | Support       | Support         |
 | Anti-crawler                      | Not Support     | Support       | Support         |
 | Customization of Web Protection Rules | Not Support | Not Support | Support |
-| CC Protection                      | Basic Protection   | Customized Rule | Expert-Customized Rule |
+| CC Defense                      | Basic Protection   | Customized Rule | Expert-Customized Rule |
 | Advanced Rule Configuration of Precise Identity and Access Management    | Not Support     | Support       | Support         |
 | Area Block of Geography IP              | Not Support     | Support       | Support         |
 | IP/URL Black/ White List Configuration         | Support       | Support       | Support         |

@@ -1,4 +1,4 @@
-# Restraint Instructions
+# Restrictions
 
 Only JD Cloud users who successfully apply for public network IP have permission to use the basic protection function.
 

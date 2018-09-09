@@ -1,4 +1,4 @@
-# Product Features
+# Features
 
 ## Introduction to the basic protection function of DDoS
 | Function | Subfunction | Property Description |

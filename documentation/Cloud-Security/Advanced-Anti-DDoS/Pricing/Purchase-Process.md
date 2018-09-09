@@ -1,6 +1,6 @@
 # Purchase Process
 
-This paper introduces the purchase entries of advanced anti-DDoS instance.
+This paper introduces the purchase entries of Advanced Anti-DDoS instance.
 
 ## Entry 1: [Product Introduction Page](https://www.jdcloud.com/products/ipanti)
 1. Log in to JD Cloud Official Website [https://www.jdcloud.com/](https://www.jdcloud.com/).
@@ -8,7 +8,7 @@ This paper introduces the purchase entries of advanced anti-DDoS instance.
 
 ![Advanced Anti-DDoS Purchase](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipanti%20purchase2.png)
 
-3. Pop up product introduction page of advanced anti-DDoS and click ** Purchase Now **.
+3. Pop up product introduction page of Advanced Anti-DDoS and click ** Purchase Now **.
 
 ![MongoDB-buy](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipanti%20purchase.png)
 

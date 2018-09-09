@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 ### Web attack protection
 
@@ -28,7 +28,7 @@ Static rule matching is a basic detection method of WAF engine identifying and b
 
 ### CC attack protection
 
-​    JD Cloud Application Security Gateway provides multiple CC protection modes, challenging more challenge verification algorithms through Cookie verifications, verification code challenges, which can protect against CC attack behaviors effectively; through customizing CC rules, it can protect specific URI or pages with CC refinement protection to meet application layer DOS protection requirements for specific pages of large Web sites.
+​    JD Cloud Application Security Gateway provides multiple CC defense modes, challenging more challenge verification algorithms through Cookie verifications, verification code challenges, which can protect against CC attack behaviors effectively; through customizing CC rules, it can protect specific URI or pages with CC refinement protection to meet application layer DOS protection requirements for specific pages of large Web sites.
 
 ### Accurate identity and access management policy
 
@@ -62,7 +62,7 @@ Static rule matching is a basic detection method of WAF engine identifying and b
 
 ### Report management
 
-JD Cloud-Application Security Gateway can provide detailed security analysis report functions, including: security analysis report, CC protection analysis report, accuracy control report, user statistics report and running monitoring report to fully support security visualization.
+JD Cloud-Application Security Gateway can provide detailed security analysis report functions, including: security analysis report, CC defense analysis report, accuracy control report, user statistics report and running monitoring report to fully support security visualization.
 
 ### Security analysis overview
 

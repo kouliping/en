@@ -1,4 +1,4 @@
-# Product Overview
+# What Is <GRC Foundation Protection>
 
 
 The basic protection is that JD Cloud is a free-of-charge protection service provided by users of public network IP. For users who have purchased JD Cloud public network IP, the guard bandwidth of 2G will be obtained free of charge.
