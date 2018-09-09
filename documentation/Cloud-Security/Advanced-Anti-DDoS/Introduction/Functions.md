@@ -41,7 +41,7 @@ The Advanced Anti-DDoS provides high-capacity attack protection, can effectively
 
 ## Related Reference
 
-- [What Is <Advanced Anti-DDoS>](../Product-Introduction/Overview.md)
+- [Product Overview](../Product-Introduction/Overview.md)
 - [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)

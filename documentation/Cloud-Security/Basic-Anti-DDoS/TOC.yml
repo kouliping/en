@@ -2,7 +2,7 @@ name: GRC Foundation Protection
 href: 
 - name: Introduction
   items:
-    - name: What Is <GRC Foundation Protection>
+    - name: Product Overview
       herf: Introduction/What-Is-Basic-Anti-DDoS.md
     - name: Core Concepts
       herf: Introduction/Core-Concepts.md

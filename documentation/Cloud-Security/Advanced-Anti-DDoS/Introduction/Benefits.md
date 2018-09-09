@@ -18,7 +18,7 @@ All-weather monitoring, automatic attack cleaning and multiaddress cleaning cent
 
 ## Related Reference
 
-- [What Is <Advanced Anti-DDoS>](../Product-Introduction/Overview.md)
+- [Product Overview](../Product-Introduction/Overview.md)
 - [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)

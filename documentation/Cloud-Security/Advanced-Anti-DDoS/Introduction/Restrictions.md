@@ -20,7 +20,7 @@ An instance of Advanced Anti-DDoS only provides 60 ports and 60 domains by defau
 
 ## Related Reference
 
-- [What Is <Advanced Anti-DDoS>](../Product-Introduction/Overview.md)
+- [Product Overview](../Product-Introduction/Overview.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

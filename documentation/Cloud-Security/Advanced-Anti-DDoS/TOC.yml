@@ -3,7 +3,7 @@
   items:
   - name: Introduction
     items:
-    - name: What Is <Advanced Anti-DDoS>
+    - name: Product Overview
       herf : Introduction/What-Is-Advanced-Anti-DDoS.md.md
     - name: Core Concepts
       herf: Introduction/Core-Concepts.md
@@ -33,7 +33,7 @@
       herf: Pricing/Renew-Process.md
   - name: Getting Started
     items:
-    - name: What Is <Advanced Anti-DDoS>
+    - name: Product Overview
       herf : Overview.md
     - name: Create Instance
       herf: Getting-Started/Create-Instance.md

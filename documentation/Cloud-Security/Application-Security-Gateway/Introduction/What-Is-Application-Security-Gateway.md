@@ -1,4 +1,4 @@
-### What Is <Application Security Gateway> 
+### Product Overview 
 
 ​	Application security gateway (VPC-WAF) is a Web application security protection product based on JD Cloud high-performance load balancer cluster, which guarantees stable and sustainable running of business and improve users’ experience by providing WAF function, business security visualization, BOT behavior management and compliance inspection and other functions so as to solve exception or compliance problems of Web or APP businesses caused by attacks for network service providers.
 

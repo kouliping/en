@@ -3,7 +3,7 @@
   items:
   - name: Introduction
     items:
-      - name: What Is <Web Application Firewall>
+      - name: Product Overview
         href: Introduction/What-Is-WAF.md
       - name: Benefits
         href: Introduction/Benefits.md
