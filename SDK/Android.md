@@ -39,7 +39,7 @@ The calling of the Java SDK is mainly divided into four steps:
 
 - STEP3: Set Request Parameters
 
-- STE4: Response to execution request
+- STEP4: Response to execution request
 
 The following is an example of a call to query details for individual VM Instance
 
