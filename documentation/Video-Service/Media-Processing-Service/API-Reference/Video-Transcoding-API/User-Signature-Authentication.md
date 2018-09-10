@@ -142,8 +142,8 @@ Detailed analysis:
 
 1. If the incoming AccessKey is absent or inactive, return 403 Forbidden. Error code: InvalidAccessKey.
 
-2. The time of incoming request must be within 15 minutes after the current time of JD Cloud storage server, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
+2. The time of incoming request must be within 15 minutes after the current time of JD Cloud OSS server, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
 
 3. If the format of the Authorization value in the user request header is incorrect, return 400 Bad Request. Error code: InvalidToken.
 
-All requests in JD Cloud Storage must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT
+All requests in JD Cloud OSS must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT
