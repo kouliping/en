@@ -5,33 +5,33 @@ definitions:
     properties:
       instanceType:
         type: string
-        description: specification type
+        description: Instance type
       vpcId:
         type: string
-        description: ID of the VPC to which the machine network card belongs
+        description: ID of the VPC to which the primary network interface belongs
       imageId:
         type: string
-        description: image ID
+        description: Image ID
       includePassword:
         type: boolean
-        description: whether the starting template contains a custom password,  true: password contained,  false: password not contained
+        description: Whether a custom password is contained in the start template, true: password contained, false: password not contained
       systemDisk:
         $ref: "./InstanceTemplateDiskAttachment.yaml#/definitions/instanceTemplateDiskAttachment"
-        description: system disk information
+        description: System disk information
       dataDisks:
         type: array
         items:
           $ref: "./InstanceTemplateDiskAttachment.yaml#/definitions/instanceTemplateDiskAttachment"
-        Description: The data disk information. The virtual machine of the system disk can be attached with eight data disks. The virtual machine of the cloud disk service (cloud type) can attach 7 data disks.
+        description: The data disk information. The VM of the local disk as system disk can be attached with 8 data disks. The VM of the cloud disk service can be attached with 7 data disks.
       primaryNetworkInterface:
         $ref: "./InstanceTemplateNetworkInterfaceAttachmentSpec.yaml#/definitions/instanceTemplateNetworkInterfaceAttachmentSpec"
-        description: primary network card information
+        description: Primary network interface information
       elasticIp:
         $ref: "./InstanceTemplateElasticIp.yaml#/definitions/instanceTemplateElasticIp"
-        description: EIP specification associated with the primary IP of the primary network card
+        description: EIP specification associated with the primary IP of the primary network interface
       keyNames:
         type: array
         items:
           type: string
         minItems: 1
-        description: the key pair name; only one is currently supported
+        description: The key pair name; only one is supported  currently

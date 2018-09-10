@@ -1,13 +1,13 @@
   name: Situation Awareness
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Cloud Situation Awareness Definition
         href: Introduction/Definition.md
       - name: Product Architecture
         href: Introduction/Product-Architecture.md
-      - name: Application Scenario
+      - name: Application Scenarios
         href: Application-Scenario.md
   - name: Operation Manual
     items:

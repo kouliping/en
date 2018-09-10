@@ -4,7 +4,7 @@ This step ** is not mandatory **
 <Br/>But to maximize the stability of your business, we recommend that you conduct a local test before you modify DNS resolution.
 
 ## Precondition
-- The advanced anti-DDoS has been successfully purchased, the billing status is normal, and the forwarding rules have been well configured.
+- The Advanced Anti-DDoS has been successfully purchased, the billing status is normal, and the forwarding rules have been well configured.
 
 ## Local Test Procedures
 1. Log in to any one Linux server
@@ -17,7 +17,7 @@ curl -x cname:port DomainName
 ## Related Reference
 - [Start Overview](Overview.md)
 - [Create Instance](Create-Instance.md)
-- [Non-web-based Rule](Non-Web-Service-Forwarding-Rule.md)
-- [Web-based Rule](Web-Service-Forwarding-Rule.md)
+- [Non-Web Service Rule](Non-Web-Service-Forwarding-Rule.md)
+- [Web Service Rule](Web-Service-Forwarding-Rule.md)
 - [Release Back-to-source IP](Whitelist-local-IP-subnet.md)
 - [Billing Rules](../../Pricing/Billing-Rules.md)

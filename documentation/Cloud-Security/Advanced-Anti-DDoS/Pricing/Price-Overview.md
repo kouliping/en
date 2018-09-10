@@ -1,11 +1,11 @@
 # Billing Instructions
-The price of advanced anti-DDoS products is as follows, wherein the elastic protection is optional.
+The price of Advanced Anti-DDoS products is as follows, wherein the elastic protection is optional.
 
 
-## Minimum Protection
+## Basic Protection
 The minimum bandwidth protection is of Pay-In-Advance mode monthly, specifically as follows:
 
-DDoS protective capability (Gbps) | CC protection peak value (QPS) | Telecom cost (RMB/month) | Telecom + Unicom cost (RMB/month) | Telecom + Unicom + CMCC cost (RMB/month) |
+DDoS protective capability (Gbps) | CC defense peak value (QPS) | Telecom cost (RMB/month) | Telecom + Unicom cost (RMB/month) | Telecom + Unicom + CMCC cost (RMB/month) |
 :---|:--- |---: |---: |---:
 | 10 | 30,000 | 6000 | 8000 | 10,000 |
 |20|60,000|12,800|15,800|18,800|
@@ -19,7 +19,7 @@ DDoS protective capability (Gbps) | CC protection peak value (QPS) | Telecom cos
 ### Elastic Protection
 The minimum bandwidth protection is of Pay-In-Advance mode monthly, specifically as follows:
 
-DDoS protective capability | CC protection peak value | cost (RMB/day) |
+DDoS protective capability | CC defense peak value | cost (RMB/day) |
 :---|:--- |---: |
 | 0Gbps < elastic peak value ≤ 10Gbps |<= 30,000QPS |800
 | 10Gbps < elastic peak value ≤ 20Gbps | 30,000 QPS < attack peak value ≤ 60,000 QPS |1000
@@ -36,7 +36,7 @@ DDoS protective capability | CC protection peak value | cost (RMB/day) |
 | 150Gbps < elastic peak value ≤ 200Gbps | 675,000 QPS < attack peak value ≤ 900,000 QPS | 17000
 
 ## Business Bandwidth:
-By default, 100 Mbps is gifted. You can purchase larger business bandwidth if needed. The business bandwidth and minimum protection have the same purchase cycle.
+By default, 100 Mbps is gifted. You can purchase larger business bandwidth if needed. The business bandwidth and basic protection have the same purchase cycle.
 RMB 4000 per 50Mbps. 2000Mbps can be purchased at most.
 
 

@@ -7,75 +7,75 @@ definitions:
     properties:
       instanceId:
         type: string
-        description: virtual machine ID
+        description: VM ID
       instanceName:
         type: string
-        description: virtual machine name
+        description: VM name
       instanceType:
         type: string
-        description: virtual machine type
+        description: Instance type
       vpcId:
         type: string
-        description: ID of the VPC to which the machine network card belongs
+        description: ID of the VPC to which the primary network interface belongs
       subnetId:
         type: string
-        description: ID of the subnet to which the machine network card belongs
+        description: ID of the subnet to which the primary network interface belongs
       privateIpAddress:
         type: string
-        description: primary network card primary IP address
+        description: IP address of primary network interface
       elasticIpId:
         type: string
-        description: The ID of the primary network card primary IP associating EIP
+        description: The ID of the primary network interface of primary IP associating EIP
       elasticIpAddress:
         type: string
-        description: the address of the primary network card primary IP associating EIP
+        description: The address of the primary network interface of primary IP associating EIP
       status:
         type: string
-        description: virtual machine status,<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">Refer to the virtual machine status</a>
+        description: 云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>
       description:
         type: string
-        description: virtual machine description
+        description: VM description
       imageId:
         type: string
-        description: image ID
+        description: Image ID
       systemDisk:
         $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
-        description: system disk configuration
+        description: System disk configuration
       dataDisks:
         type: array
         items:
           $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
-        description: data disk configuration
+        description: Data disk configuration
       primaryNetworkInterface:
         $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: primary network card configuration
+        description: Primary network interface instance type
       secondaryNetworkInterfaces:
         type: array
         items:
           $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: secondary network card configuration
+        description: Secondary network interface instance type
       launchTime:
         type: string
         format: date-time
-        description: creation time
+        description: Creation time
       az:
         type: string
-        description: the availability zone of the virtual machine
+        description: The AZ of the VM
       keyNames:
         type: array
         items:
           type: string
         minItems: 1
-        description: key pair name
+        description: Key pair name
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: billing information
+        description: Billing information
       ag:
         $ref: "./Ag.yaml#/definitions/ag"
-        description: availability group,  where a highly available group is used to create a virtual machine,  a highly available group name can be displayed here
+        description: AG, where an AG is used to create a VM, an AG name can be displayed here
       faultDomain:
         type: string
-        description: error domains in availability groups
+        description: Error domains in AGs
       tags:
         type: array
         items:

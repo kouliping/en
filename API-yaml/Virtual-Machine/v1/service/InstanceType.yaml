@@ -1,17 +1,17 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Specification Type
-  description: interface related to specifications type operation
+  title: Instance Type
+  description: APIs related to instance type operation
 
 basePath: /regions/{regionId}
 
 paths:
   "/instanceTypes":
-    ###################### Specification List Interface ######################
+    ###################### Instance Type List API ######################
     get:
       description: |
-        Query specification type information list
+        Query instance type information list
       operationId: describeInstanceTypes
       parameters:
         - name: filters
@@ -20,8 +20,8 @@ paths:
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: | 
-            instanceTypes-specification type,  exact match,  multiple support
-            az-Availability zone,  exact match,  multiple support
+            instanceTypes - Instance type, exact match, multiple support
+            az-AZ,  exact match,  multiple supported
       responses:
         200:
           description: OK
@@ -31,18 +31,18 @@ paths:
               result:
                 properties:
                   instanceTypes:
-                    description: Generic specification type
+                    description: Generic instance type
                     type: array
                     items:
                       $ref: "../model/InstanceType.yaml#/definitions/instanceType"
                   specificInstanceTypes:
-                    description: user-specific type of specification; Work Order Request Required
+                    description: User-specific instance type; ticket application required
                     type: array
                     items:
                       $ref: "../model/InstanceType.yaml#/definitions/instanceType"
                   totalCount:
                     type: integer
-                    description: quantity
+                    description: Quantity
               requestId:
                 type: string
         400:
@@ -63,4 +63,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Geo ID
+    description: Region ID

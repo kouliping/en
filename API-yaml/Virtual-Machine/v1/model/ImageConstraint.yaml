@@ -5,18 +5,18 @@ definitions:
     properties:
       imageId:
         type: string
-        description: image ID
+        description: Image ID
       imageInstanceTypeConstraint:
-        description: image specification type limit
+        description: Specification limit for instance type created by image
         $ref: "#/definitions/imageInstanceTypeConstraint"
   imageInstanceTypeConstraint:
     x-jdcloud-module: vm
     properties:
       constraintsType:
-        description: restricted specification type. excludes: exclude specified instance types; includes: only the specified instance type is included,  which is not supported temporarily
+        description: Restricted specification type. excludes: instance types not supported; includes: instance types supported.
         type: string
       instanceTypes:
-        description: specification type list
+        description: Instance type list
         type: array
         items:
           type: string

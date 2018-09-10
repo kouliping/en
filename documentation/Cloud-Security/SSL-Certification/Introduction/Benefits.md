@@ -1,4 +1,4 @@
-# Product advantage
+# Benefits
 
 ## Authoritative cooperative institution
 The digital certificate authority (CA) is a network organization that controls and issues security credentials and encrypts the information security key pair. It is responsible for verifying the legality of certificates and the authenticity of identities of users and enterprises. As authority and impartiality is crucial to the CA, JD Cloud chooses only top authoritative CA organizations to provide users with secure and trusted SSL certificate products.

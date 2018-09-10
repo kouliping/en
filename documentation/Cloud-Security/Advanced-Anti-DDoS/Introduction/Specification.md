@@ -1,12 +1,12 @@
-# Product Specification
+# Specifications
 
-The advanced anti-DDoS currently supports the following instance specifications.
+The Advanced Anti-DDoS currently supports the following instance specifications.
 
 ## Instance Specification List
 
 | Specification List | Protective Capability | 
 | :- | :- | 
-| Minimum protection | 10G to 100G |
+| Basic Protection | 10G to 100G |
 | 弹性防护	| 0G to 200G | 	
 | 业务带宽	| 100M to 2000M	 | 
 

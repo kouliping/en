@@ -3,7 +3,7 @@
 You can adjust the settings of alarm reception at the Message Center to determine the person and manner in which the message alert needs to be received.
 
 ## Precautions
-- Alarm settings take effect globally, including ** basic anti-DDoS ** and ** advanced anti-DDoS **.
+- Alarm settings take effect globally, including ** Basic Anti-DDoS ** and ** Advanced Anti-DDoS **.
 
 ## Configure Alarm Notification
 1. If you have logged in to the console, find the ** Message ** on the top right of the console and enter the Message --> Message Setup page.

@@ -1,4 +1,4 @@
-# Application scenario
+# Application Scenarios
 
 - Business scenario 1: Event processing
 

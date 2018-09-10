@@ -10,29 +10,29 @@ definitions:
     properties:
       instanceType:
         type: string
-        Description: spec type,  query<a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a> Interface gives specification information for the specified zone or availability zone.
+        description: Instance type, query<a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a> API for the instance type information of the specified zone or AZ.
       imageId:
         type: string
-        Description: image ID,  query <a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a> Interface gets the image information for the specified zone.
+        description: Image ID, query <a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a> API for the image information of the specified zone.
       password:
         type: string
-        Description: password,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 "> Refer to the public parameter specification</a>.
+        description: Password,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.
       keyNames:
         type: array
         items:
           type: string
-        description: the key pair name; only one is currently supported
+        description: The key pair name; only one is supported  currently
       elasticIp:
         $ref: "./InstanceTemplateElasticIpSpec.yaml#/definitions/instanceTemplateElasticIpSpec"
-        description: EIP specification associated with the primary IP of the primary network card
+        description: EIP specification associated with the primary IP of the primary network interface
       primaryNetworkInterface:
         $ref: "./InstanceTemplateNetworkInterfaceAttachmentSpec.yaml#/definitions/instanceTemplateNetworkInterfaceAttachmentSpec"
-        description: primary network card configuration information
+        description: Primary network interface instance type information
       systemDisk:
         $ref: "./InstanceTemplateDiskAttachmentSpec.yaml#/definitions/instanceTemplateDiskAttachmentSpec"
-        description: system disk configuration information
+        description: System disk instance type information
       dataDisks:
         type: array
         items:
           $ref: "./InstanceTemplateDiskAttachmentSpec.yaml#/definitions/instanceTemplateDiskAttachmentSpec"
-        description: data disk configuration information
+        description: Data disk instance type information

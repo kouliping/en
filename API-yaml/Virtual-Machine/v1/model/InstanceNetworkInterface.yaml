@@ -5,7 +5,7 @@ definitions:
     properties:
       networkInterfaceId:
         type: string
-        description: Elastic Network Card ID
+        description: ENI ID
       macAddress:
         type: string
         description: Ethernet address
@@ -19,15 +19,15 @@ definitions:
         type: array
         items:
           $ref: "./SecurityGroupSimple.yaml#/definitions/securityGroupSimple"
-          description: list of security groups
+          description: List of security groups
       sanityCheck:
         type: integer
-        Description: Source and destination IP address verification with a value of 0 or 1
+        description: Source and destination IP address verification with a value of 0 or 1
       primaryIp:
         $ref: "../../vpc/model/NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
-        description: network card primary IP
+        description: Network interface primary IP
       secondaryIps:
         type: array
-        description: network card secondary IP
+        description: Network interface secondary IP
         items:
           $ref: "../../vpc/model/NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"

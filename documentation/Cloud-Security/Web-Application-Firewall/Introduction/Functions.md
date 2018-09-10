@@ -1,9 +1,9 @@
-# Product Features
+# Features
 
 ### Web Attack Protection
 Protection against the Owasp TOP 10 vulnerability
 
-### CC Protection
+### CC Defense
 Filter a large number of CC attacks 
 
 ### Precise Identity and Access Management
@@ -34,7 +34,7 @@ Block IP from designated provinces and overseas regions according to the blackli
 
 Provide effective website protection by setting black and white lists 
 
-### Customized CC protection
+### Customized CC Defense
 
 Support recovery of backup data to the current case with one click; based on incremental backup, support to create new database case based on the data at any point of time within seven days.
 

@@ -1,7 +1,7 @@
   name: Endpoint Security
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
         href: Introduction/Overview.md
