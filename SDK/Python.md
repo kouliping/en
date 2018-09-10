@@ -54,7 +54,7 @@ try:
     print resp.result
 except Exception, e:
     print e
-    #错误处理
+    #Error handling
 ```
 
 If you need to set up an additional header, for example to call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
