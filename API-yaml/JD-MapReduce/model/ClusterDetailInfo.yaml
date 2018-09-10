@@ -28,7 +28,7 @@ definitions:
       masterInstanceType:
         type: string
         required: true
-        description: Master node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification
+        description: "Master node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification"
       masterInstanceInfo:
         type: string
         description: master node instance information
@@ -56,7 +56,7 @@ definitions:
       slaveInstanceType:
         type: string
         required: true
-        description: Slave node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification
+        description: "Slave node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification"
       slaveInstanceInfo:
         type: string
         description: Slave node instance information

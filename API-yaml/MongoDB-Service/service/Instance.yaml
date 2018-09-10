@@ -127,7 +127,7 @@ paths:
   "/instances/{instanceId}:modifyInstanceSpec":
     ###################### Change Instance Type  ######################
     post:
-      description: "Change Instance Type
+      description: "Change Instance Type"
       operationId: modifyInstanceSpec 
       parameters:
         - name: modifyInstanceSpec
@@ -159,7 +159,7 @@ paths:
               requestId:
                 type: string
 
-  "/instances/{instanceId}:modifyInstanceName":
+  "/instances/{instanceId}:modifyInstanceName": 
     ###################### Modify Instance Name  ######################
     post:
       description: "Modify Instance Name"
@@ -218,7 +218,7 @@ paths:
             properties:
               preferredBackupTime:
                 type: string
-                description: Backup time, format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour.
+                description: "Backup time, format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour."
       responses:
         200:
           description: OK

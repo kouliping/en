@@ -212,7 +212,7 @@ definitions:
       endpoint:
         type: "string"
         example: "http://xxx.yyy.com/notifications"
-        description: "Notify endpoint, support http:// and https://" currently
+        description: "Notify endpoint, support http:// and https:// currently"
       events:
         type: "array"
         description: "Collection of events that trigger notifications (mpsTranscodeComplete, mpsThumbnailComplete)"

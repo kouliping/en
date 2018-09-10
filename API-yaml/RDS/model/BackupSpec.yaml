@@ -12,4 +12,4 @@ definitions:
         type: array
         items:
           type: string
-        description: List of Database Names to Be Backed up. If it is not filled, the whole instance will be backed up<br>- **MySQL: not support the parameter**<br>- **SQL Server: support**
+        description: "List of Database Names to Be Backed up. If it is not filled, the whole instance will be backed up<br>- **MySQL: not support the parameter**<br>- **SQL Server: support**"

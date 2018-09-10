@@ -20,7 +20,7 @@ paths:
             properties:
               enabled:
                 type: string
-                description: The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the interface [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft.
+                description: "The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the interface [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft."
       responses:
         200:
           description: OK
@@ -60,7 +60,7 @@ paths:
             properties:
               name:
                 type: string
-                description: Audit option category, **Case Sensitivity**. It currently supports two types: <br>(1) AuditOptions at the beginning: It returns all options supported by each version of SQL Server in the disalbed parameter with supported name of <br>AuditOptions2008R2<br>AuditOptions2012<br>AuditOptions2014<br>AuditOptions2016<br>For example, if the input parameter is "AuditOptions2016", then it returns all the audit options supported by the SQL Server 2016 version in the disabled field<br>(2)AuditDefault at the beginning: The default option suggested by JD Cloud, which returns the recommended options to be enabled in the enabled parameter, and returns the options not to be enabled in the disabled parameter, with supported name of: <br>AuditDefault2008R2<br>AuditDefault2012<br>AuditDefault2014<br>AuditDefault2016<br>For example, if the input parameter is "AuditDefault2016", then it returns the audit options recommended by JD Cloud to be enabled in the SQL Server 2016 version in the enabled field, and the options recommended not to be enabled in the disabled field
+                description: "Audit option category, **Case Sensitivity**. It currently supports two types: <br>(1) AuditOptions at the beginning: It returns all options supported by each version of SQL Server in the disalbed parameter with supported name of <br>AuditOptions2008R2<br>AuditOptions2012<br>AuditOptions2014<br>AuditOptions2016<br>For example, if the input parameter is 'AuditOptions2016', then it returns all the audit options supported by the SQL Server 2016 version in the disabled field<br>(2)AuditDefault at the beginning: The default option suggested by JD Cloud, which returns the recommended options to be enabled in the enabled parameter, and returns the options not to be enabled in the disabled parameter, with supported name of: <br>AuditDefault2008R2<br>AuditDefault2012<br>AuditDefault2014<br>AuditDefault2016<br>For example, if the input parameter is 'AuditDefault2016', then it returns the audit options recommended by JD Cloud to be enabled in the SQL Server 2016 version in the enabled field, and the options recommended not to be enabled in the disabled field"
       responses:
         200:
           description: OK
@@ -72,12 +72,12 @@ paths:
                     type: array
                     items:
                       type: string
-                      description: AuditDefault Template: It returns the audit options recommended to be enabled. <br> AuditOptions Template: It does not return this parameter
+                      description: "AuditDefault Template: It returns the audit options recommended to be enabled. <br> AuditOptions Template: It does not return this parameter"
                   disabled:
                     type: array
                     items:
                       type: string
-                      description: AuditDefault Template: It returns disabled audit options<br>AuditOptions Template: It returns all audit options
+                      description: "AuditDefault Template: It returns disabled audit options<br>AuditOptions Template: It returns all audit options"
   "/instances/{instanceId}/audit:modifyAudit": #Modify Audit
     post:
       description: Modify Current Audit Options. Currently available audit options are available through describeAudit, and all supported options are available through getAuditOptions. <br>- Support SQL Server Only

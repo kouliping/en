@@ -168,7 +168,7 @@ paths:
           in: query
           required: true
           type: string
-          description: The modified Redis type after the change, see: <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>
+          description: 'The modified Redis type after the change, see: <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>'
       responses:
         200:
           description: OK

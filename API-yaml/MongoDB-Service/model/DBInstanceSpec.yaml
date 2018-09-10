@@ -23,7 +23,7 @@ definitions:
         description: Database Version, 3.2
       instanceClass:
         type: string
-        description: Instance type code. Mongo.s1.small: 1-core 2G; mongo.s1.medium: 2-core 4G; mongo.s1.large: 4-core 8G; mongo.s1.xlarge: 8-core 16G; mongo.s2.2xlarge: 8-core 32G; Mongo.s2.4xlarge: 16-core 64G;
+        description: "Instance type code. Mongo.s1.small: 1-core 2G; mongo.s1.medium: 2-core 4G; mongo.s1.large: 4-core 8G; mongo.s1.xlarge: 8-core 16G; mongo.s2.2xlarge: 8-core 32G; Mongo.s2.4xlarge: 16-core 64G;"
       instanceStorageGB:
         type: integer
         description: Storage space, in GB, value within 10-1000, a multiple of 10.
@@ -52,5 +52,5 @@ definitions:
         description: Create new instance based on backup of an instance. If you fill in, restoreTime also needs to be filled.
       restoreTime:
         type: string
-        description: The user specifies any time point in the backup retention period, such as 2011-06-11T16:00:00Z. It is not required and is mutually exclusive with backupId.
+        description: "The user specifies any time point in the backup retention period, such as 2011-06-11T16:00:00Z. It is not required and is mutually exclusive with backupId."
       

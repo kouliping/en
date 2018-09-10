@@ -7,10 +7,10 @@ definitions:
     properties:
       dbName:
         type: string
-        description: Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)
+        description: "Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)"
       dbStatus:
         type: string
-        description: Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)- **MySQL: Not support, not return this field**- **SQL Server: return this field**
+        description: "Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)- **MySQL: Not support, not return this field**- **SQL Server: return this field**"
       characterSetName:
         type: string
         description: Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)

@@ -19,10 +19,10 @@ definitions:
         description: Backup status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
       backupStartTime:
         type: string
-        description: Backup start time, format: YYYY-MM-DD HH:mm:ss
+        description: "Backup start time, format: YYYY-MM-DD HH:mm:ss"
       backupEndTime:
         type: string
-        description: Backup end time, format: YYYY-MM-DD HH:mm:ss
+        description: "Backup end time, format: YYYY-MM-DD HH:mm:ss"
       backupType:
         type: string
         description: Backup type, full backup or incremental backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports****<br>- **MySQL does not support**
@@ -37,7 +37,7 @@ definitions:
         items:
           type: string
           description: Backup File Name
-        description: Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**
+        description: "Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**"
       backupSizeByte:
         type: integer
         description: Size of Whole Backup Set, in Byte

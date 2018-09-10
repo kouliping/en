@@ -466,7 +466,7 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: Required fields: az, planName, planType and planStatus
+                   description: "Required fields: az, planName, planType and planStatus"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
                    description: Optional parameters of search conditions
