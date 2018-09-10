@@ -17,7 +17,7 @@ The following part shows the concept and explanation used in the help documentat
 | Access Authorization | Grants the caller of one API group to call the permission of the API group, which is done by the API provider.  |
 | Backend Signature | The API provider can be accessed by addition of backend signature when the gateway accessing. |
 | Version Revision   | Each API group can maintain multiple versions. You can specify a version to publish in each environment. |
-| Deployment List | Service publishing and deployment. At the end of the API group configuration, it should be released to the specific environment before it can provide services externally. The existing environment includes: Test, pre-launch, online. |
+| Deployment List | Service publishing and deployment. At the end of the API group configuration, it should be released to the specific environment before it can provide services externally. The existing environment includes: Test, Pre-release, Online. |
 | Publish | The process that exposes the API so as to access from outside. The publish object is the service, subject to the current API configuration. API can be accessed externally only after publishing. |
 
 
