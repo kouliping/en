@@ -108,7 +108,7 @@ Open the Demo.sln solution using Visual Studio, compile.
 
 ## Call method
 ```
-// 引用头文件
+// Reference header files
 #include "Credential.h"
 #include "JdcloudSigner.h"
 #include "http/HttpTypes.h"
@@ -116,26 +116,26 @@ Open the Demo.sln solution using Visual Studio, compile.
 #include "util/logging/Logging.h"
 #include "util/logging/ConsoleLogSystem.h"
 
-// 配置日志
+// Configuration Log
 ConsoleLogSystem* cls = new ConsoleLogSystem(LogLevel::Debug);
 shared_ptr<ConsoleLogSystem> log(cls);
 InitializeLogging(log);
 
-// 创建HttpRequest对象
+// Create LinkpRequest object
 HttpRequest request(URI("YOUR URL"), HttpMethod::HTTP_GET);
 request.SetHeaderValue(CONTENT_TYPE_HEADER, "application/json");
 request.SetHeaderValue(USER_AGENT_HEADER, "JdcloudSdkGo/1.0.2 vm/0.7.4");
 
-// 创建签名对象
+// Create signature object
 Credential credential("YOUR AK", "YOUR SK");
 JdcloudSigner signer(credential, "vm", "cn-north-1");
 
-// 调用签名方法
+// Call signature method
 bool result = signer.SignRequest(request);
 if(result)
 {
-    // 把Header中的三项 "Authorization、x-jdcloud-date、x-jdcloud-nonce" 放到真正的请求头中
-    // 向京东云网关发起HTTP请求
+    // Put the three "Authorization, x-jdcloud-date, x-jdcloud-nonce" in Header into the true request header.
+    // Send an HTTP request to the JD Cloud Gateway
 }
 else
 {
