@@ -9,7 +9,7 @@ API group is the fundamental management unit of API. SDK is generated based on t
 
 ## Operational Steps
 ### STEP1: Click the **API Group Management** at left menu to enter the group list page
-Login\[API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
+Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
 
  ![API Group Management](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
  

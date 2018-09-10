@@ -19,12 +19,7 @@ Click the operations on this group row **Manage API**, enter the page of “API 
 ![Create new API](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
 
 
-3. After creation, click the “New API” to enter API details page to perform the configuration of advanced options. This item is optional, but this information item needs to be configured when the actual publishing is required.
+3. After filling the API information, click the “Save”, then the new creation is completed.
 
-![Advanced configuration](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addapi-advane.png)
-  
-  
-4. After filling the API information, click the “Save”, then the new creation is completed.
-
-5. At present, the system supports API import, click **Import API** in the API list page and select API files, then the importing is completed. Please note that the imported API files should comply with the Code swagger 2.0 Specific code refers to:
+4. At present, the system supports API import, click **Import API** in the API list page and select API files, then the importing is completed. Please note that the imported API files should comply with the Code swagger 2.0 Specific code refers to:
 ![Code swagger 2.0](http://editor.swagger.io/)  
