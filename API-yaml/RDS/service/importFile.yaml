@@ -52,7 +52,7 @@ paths:
             properties:
               shared:
                 type: string
-                description: Whether the file is shared<br>true: shared<br>false: not shared
+                description: "Whether the file is shared<br>true: shared<br>false: not shared"
       responses:
         200:
           description: OK

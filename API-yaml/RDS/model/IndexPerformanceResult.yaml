@@ -28,10 +28,10 @@ definitions:
         description: Cumulative number of index updates since the server was started
       lastUserSeek:
         type: string
-        description: Last index search time, format YYYY-MM-DD hh:mm:ss
+        description: "Last index search time, format YYYY-MM-DD hh:mm:ss"
       lastUserScan:
         type: string
-        description: The most recent table scan time, format: YYYY-MM-DD hh:mm:ss
+        description: "The most recent table scan time, format: YYYY-MM-DD hh:mm:ss"
       lastUserUpdate:
         type: string
-        description: The most recent index update time, format: YYYY-MM-DD hh:mm:ss
+        description: "The most recent index update time, format: YYYY-MM-DD hh:mm:ss"

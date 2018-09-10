@@ -10,7 +10,7 @@ definitions:
         description: sql statement
       lastExecutionTime:
         type: string
-        description: Last execution time, format: YYYY-MM-DD hh:mm:ss
+        description: "Last execution time, format: YYYY-MM-DD hh:mm:ss"
       elapsedTime:
         type: integer
         description: Average Execution Time in milliseconds (ms)

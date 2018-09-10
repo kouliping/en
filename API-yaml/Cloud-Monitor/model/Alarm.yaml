@@ -28,7 +28,7 @@ definitions:
       - times
     properties:
       calculation:
-        description: Statistical method must be consistent with the defined metric, with a list of optional values: avg, max, sum, min
+        description: "Statistical method must be consistent with the defined metric, with an optional list of values: avg, max, sum, min"
         type: string
       contactGroups:
         description: Contact group notified by alarm rules must be already created on the console, for example“[‘contact group 1’, ‘contact group 2’]”
@@ -47,13 +47,13 @@ definitions:
         description: For values, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1"> [Query metric list to create monitoring rules available]</a> metric field of API
         type: string
       noticePeriod:
-        description: Notification period Unit: hour
+        description: "Notification period unit: hour"
         type: integer
       operation:
         description: 报警比较符，只能为以下几种<=,<,>,>=,==,!=
         type: string
       period:
-        description: Statistical period, unit is minute, currently supported value: 2, 5, 15, 30, 60
+        description: "Statistical period, unit in minutes, currently supported value: 2, 5, 15, 30, 60"
         type: integer
       resourceIds:
         description: Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example"['resourceId1','resourceId2']"
@@ -68,7 +68,7 @@ definitions:
         type: number
         format: double
       times:
-        description: Continuous period, alarms are made when several statistical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5
+        description: "Continuous periods, alarms are made when several statical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5"
         type: integer
 
   updateAlarmBody:
@@ -85,7 +85,7 @@ definitions:
       - times
     properties:
       calculation:
-        description: Statistical method: average value=avg, maximum value=max, minimum value=min, and summation=sum
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum"
         type: string
       contactGroups:
         description: Notify contact group, for example [“contact group 1”, “contact group 2”]
@@ -104,13 +104,13 @@ definitions:
         description: Query Metric field returned by list API of available monitoring item based on the product line
         type: string
       noticePeriod:
-        description: Notification period Unit: hour
+        description: "Notification period unit: hour"
         type: integer
       operation:
         description: '>=、>、<、<=、==、!='
         type: string
       period:
-        description: Statistical period (unit: minute), optional value: 2, 5, 15, 30, 60
+        description: "Statistical period (unit: minute), optional value: 2, 5, 15, 30, 60"
         type: integer
       serviceCode:
         description: Product name
@@ -120,7 +120,7 @@ definitions:
         type: number
         format: double
       times:
-        description: Alarm after how many times, optional value: 1, 2, 3, 5
+        description: "Alarm after how many times, optional value: 1, 2, 3, 5"
         type: integer
 
   alarmHistory:
@@ -129,7 +129,7 @@ definitions:
     type: object
     properties:
       calculation:
-        description: Statistical method: average value=avg, maximum value=max, minimum value=min,
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min,"
         type: string
       contactGroups:
         description: Notify contact group, for example [“contact group 1”, “contact group 2”]
@@ -157,7 +157,7 @@ definitions:
         description: Name of rule id monitoring item
         type: string
       noticePeriod:
-        description: Notification period Unit: hour
+        description: "Notification period unit: hour"
         type: integer
       noticeTime:
         description: Alarm time
@@ -167,7 +167,7 @@ definitions:
         description: '>=、>、<、<=、==、！='
         type: string
       period:
-        description: Statistical period (unit: minute)
+        description: "Statistical period (unit: minute)"
         type: integer
       region:
         description: Region information
@@ -199,7 +199,7 @@ definitions:
     type: object
     properties:
       calculation:
-        description: Statistical method: average value=avg, maximum value=max, minimum value=min,
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min,"
         type: string
       contactGroups:
         description: Notify contact group, for example [“contact group 1”, “contact group 2”]
@@ -228,7 +228,7 @@ definitions:
         description: Name of rule id monitoring item
         type: string
       noticePeriod:
-        description: Notification period Unit: hour
+        description: "Notification period unit: hour"
         type: integer
       noticeTime:
         description: Alarm time  ,  this field is valid when querying the alarming rule
@@ -238,7 +238,7 @@ definitions:
         description: '>=、>、<、<=、==、！='
         type: string
       period:
-        description: Statistical period (unit: minute)
+        description: "Statistical period (unit: minute)"
         type: integer
       region:
         description: Region information
@@ -250,7 +250,7 @@ definitions:
         description: Product corresponded to the alarm rule
         type: string
       status:
-        description: Monitoring item status: 1 Normal, 2 Alarm, 4 Insufficient data
+        description: "Monitoring item status: 1 Normal, 2 Alarm, 4 Insufficient data"
         type: integer
       tag:
         description: Auxiliary information of monitoring item

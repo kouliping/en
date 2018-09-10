@@ -195,7 +195,7 @@ paths:
                     description: If the user is available; 1 means that the user available, while 0 means that the user is unavailable and the user is in the blacklist
                   userType:
                     type: integer
-                    description: User type 1: Person, 2: Enterprise, 3: Upgraded individual enterprise
+                    description: "User type 1: Person, 2: Enterprise, 3: Upgraded individual enterprise"
                   personAuthStatus:
                     type: integer
                     description: -1-Unverified (personal), 1-Verified (personal)

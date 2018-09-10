@@ -45,7 +45,7 @@ paths:
                     description: Number of domain names in the domain name list of the current page
                   totalCount:
                     type: integer
-                    description:Number of all matched domain name lists
+                    description: Number of all matched domain name lists
                   totalPage:
                     type: integer
                     description: Pages of all matched domain name lists in total according to the paging parameters                    
