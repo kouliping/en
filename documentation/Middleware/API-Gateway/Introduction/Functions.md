@@ -15,7 +15,7 @@ Associate the independent domain for group when the API provider opens the API s
 Each API group can maintain multiple versions. You can specify a version to publish in each environment.
 
 ### Deployment Management
-Service publishing and deployment. At the end of the API group configuration, it should be released to the specific environment before it can provide services externally. The existing environment includes: Test, pre-launch, online.
+Service publishing and deployment. At the end of the API group configuration, it should be released to the specific environment before it can provide services externally. The existing environment includes: Test, Pre-release, Online.
 
 
 
