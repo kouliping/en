@@ -5,7 +5,7 @@ definitions:
     properties:
       az:
         type: string
-        description: availability zone
+        description: AZ
       inStock:
         type: boolean
-        Description: "tradable situation,  true: available,  false: sold,  unavailable"
+        description: Tradable details, true: available, false: sold out, unavailable

@@ -7,10 +7,10 @@ definitions:
     properties:
       deviceIndex:
         type: integer
-        description: device Index; The index of the primary network card must be 1; The primary network card is currently only supported
+        description: Device Index; The index of the primary network interface must be 1; The primary network interface is currently supported only
       autoDelete:
         type: boolean
-        Description: Indicates whether the network card is deleted when deleting an instance,  and the default is true; currently can only be true
+        description: Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently
       networkInterface:
         $ref: "./InstanceTemplateNetworkInterfaceSpec.yaml#/definitions/instanceTemplateNetworkInterfaceSpec"
-        description: network card interface specification;This field is currently required
+        description: Network interface API instance type;This field is currently required

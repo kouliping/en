@@ -1,4 +1,4 @@
-- ## Product Advantages
+- ## Benefits
 
   **Professional Protection Ability**
 

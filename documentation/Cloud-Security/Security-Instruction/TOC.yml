@@ -1,0 +1,15 @@
+  name: Security Instruction
+  href: 
+  items:
+  - name: Security Vulnerability Instruction
+    items:
+      - name: Suggested fix solution for Intel processor Meltdown and Spectre security vulnerability
+        href: Security-Vulnerability-Instruction/Meltdown-and-Spectre-Security-Vulnerability-Restore-Solution-of-Intel-Processor.md
+      - name: NTP Service and Monlist Vulnerability
+        href: Security-Vulnerability-Instruction/NTP-Monlist-Vulnerability.md
+  - name: Security Best Practice
+    items:
+      - name: Isolation protection and security advice for zombie machine
+        href: Isolation-Protection-And-Security-Recommendations-For-Botnets.md
+      - name: Is the outbound of VM public network TCP port 25 limited?
+        href: Security-Best-Practice/Why-Is-Port-25-Of-SMTP-Service-Unavailable.md

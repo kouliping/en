@@ -7,7 +7,7 @@
 
 Like JD Cloud Open API, the use of JD Cloud CLI requires application of AccessKey and SecretKey in advance, the user's AccessKey and SecretKey information are maintained uniformly by the user center, and the common key pair (basic cloud, data cloud, etc.) of each business line of Jingdong public cloud is shared;
 
-The key pair allows enabling, disabling, and enabling it to invoke the CLI after enabling it, and cannot call the CLI with it after being disabled;
+The key pair allows enabling, disabling, and invoke the CLI after enabling it, and cannot call the CLI with it after being disabled;
 
 The key pair refers to the account number function, and the key pair applied by the user belongs to the master key pair, and can be used for operating all resources under the account number of the user. The key pair applied by the user to the sub-account number belongs to the sub-key pair, and is used for the sub-account number to operate the authorized resource under the master account number.
 

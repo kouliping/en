@@ -1,11 +1,11 @@
 # Select the Appropriate Forwarding Mode
 
-When the advanced anti-DDoS configures forwarding policy, multiple flexible forwarding modes are available to meet different requirements for business scenarios.
+When the Advanced Anti-DDoS configures forwarding policy, multiple flexible forwarding modes are available to meet different requirements for business scenarios.
 The selection of the forwarding mode is applicable to the case where multiple servers are available at the backend, and the load balancer is carried out by different policies.
 
 ## Specification of Forwarding Rules
-- Non-web-based rules support: polling, weighted polling, and source IP hash
-- Web-based rules support: polling, and weighted polling
+- Non-web service rules support: polling, weighted polling, and source IP hash
+- Web Service rules support: polling, and weighted polling
 
 ## Forwarding Mode Interpretation
 1. Poll</BR>

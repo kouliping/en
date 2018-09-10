@@ -22,7 +22,7 @@ Click **Backend Signature** at left side to perform the configure and associate
 ![Add backend signature](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-add.png)
 
 
-3. Associate the signature to group
+3. Bind the signature to group
 
 ![Associate signature](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-bd.png)
 

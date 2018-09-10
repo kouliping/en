@@ -1,4 +1,4 @@
-# Application scenario
+# Application Scenarios
 
 The applicable scenarios for SSL certificate are described as below.
 

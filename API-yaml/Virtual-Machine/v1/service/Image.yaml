@@ -41,6 +41,7 @@ paths:
     delete:
       description: |
         Delete a private image that only allows you to operate your personal private image.
+        若镜像已共享给其他用户，需先取消共享才可删除。
       operationId: deleteImage
       responses:
         200:
@@ -62,7 +63,7 @@ paths:
       description: |
         Query the image information list. <br>
         This interface allows you to query an public image of JD cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
-        This interface supports paging query by default of 20 pages per page.
+        This API supports paging query with 20 items per page by default.
       operationId: describeImages
       parameters:
         - name: imageSource
@@ -91,12 +92,12 @@ paths:
           in: query
           type: integer
           default: 1
-          description: "Page; Default is 1"
+          description: "Page; 1 by default"
         - name: pageSize
           in: query
           type: integer
           default: 20
-          description: "Page size; Default is 20;Range of value[10, 100] "
+          description: "Paging size; 20 by default;Value range[10, 100] "
       responses:
         200:
           description: OK
@@ -112,7 +113,7 @@ paths:
                       $ref: "../model/Image.yaml#/definitions/image"
                   totalCount:
                     type: integer
-                    description: quantity
+                    description: Quantity
               requestId:
                 type: string
         400:
@@ -130,7 +131,7 @@ paths:
     ###################### Query Image Restriction Interface ######################
     get:
       description: |
-        查询镜像的规格类型限制。<br>
+        查询镜像的实例规格限制。<br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraints
       responses:
@@ -329,7 +330,7 @@ paths:
           items:
             type: string
           required: true
-          description: source image ID
+          description: Source image ID
         - name: destinationRegion
           in: query
           type: string
@@ -370,11 +371,11 @@ paths:
         - name: name
           in: query
           type: string
-          Description: name,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1"> Refer to the public parameter specification </a>.
+          description: Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
         - name: description
           in: query
           type: string
-          Description: description,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 "> Refer to the public parameter specification</a>.
+          description: Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.
       responses:
         200:
           description: OK
@@ -396,10 +397,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Geo ID
+    description: Region ID
   imageId:
     name: imageId
     in: path
     required: true
     type: string
-    description: image ID
+    description: Image ID

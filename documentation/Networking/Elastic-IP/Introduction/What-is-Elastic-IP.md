@@ -1,20 +1,20 @@
 # Product Overview
 
-Elastic IP is Public IP that may be independently applied for, and supports dynamically associating and disassociating Virtual Machine, container, Load Balancer, and NFV Instance. The mail function of Elastic IP is to block instance fault, that is, through manual configuration the Elastic IP may drift to a redundant instance in case of fault so as to achieve rapid response.
+An Elastic IP address is a Public IP address that can be applied for independently. It supports dynamic association and disassociation on cloud resources, including virtual machine instances, native containers, load balancers, and NFV instances. The major function of Elastic IP address is to improve the fault-tolerance ability for instances. In case of master instance failure, the user can manually switch the Elastic IP address to a standby instance, thus minimizing the failure response time.
 
-Currently, JD Cloud uses the industry-leading high-availability technology of the dual-active vRouter (Virtual Router). Compared with the traditional high-availability mode of the active and standby vRouter, the technology may provide link redundancy and high availability in scenarios such as high concurrent connections, large traffic load, and traffic bursts. With this technology, the maximum bandwidth of JD Cloud Elastic IP may reach 150% of the bandwidth actually purchased by a user, providing guarantee for the user’s business.
+Currently JD Cloud leverages the cutting-edge technology of active-active vRouter which provides high availability ability for users. users can benefit from features of link redundancy and high availability in scenarios of massive concurrent connections, extra-large traffic loads, and burst traffic compared to classic active-standby mode. Based on this technology, JD Cloud’s EIP address’s maximum bandwidth can reach up to 150% of the bandwidth users actually purchase, which provides business continuity guarantee.
 
-Based on the traffic sharing model of the dual-active vRouter, the maximum bandwidth of the Elastic IP is generally 150% of the bandwidth actually purchased by a user. In a rare special case, such as single access to FTP files, the maximum bandwidth of Elastic IP is around 75% of the bandwidth actually purchased by a user.
+Normally, an Elastic IP address’s maximum bandwidth equals 150% of the bandwidth users actually purchase according to the traffic-sharing model of active-active vRouter. In rare specific situations, like downloading files through a single FTP connection, an Elastic IP address’s maximum bandwidth might reduce to 75% of user’s actual bandwidth.
 
-The Elastic IP mainly has the following characteristics:
+The Elastic IP mainly has the following features:
 
-* Complete elasticity: the Public IPs provided by JD Cloud are all Elastic IPs. Whether you purchase Elastic IP separately or together with other resources of the Virtual Machine, you may modify the association between Elastic IP and cloud resource.
+* Complete elasticity: the Public IPs provided by JD Cloud are all Elastic IPs. An Elastic IP address, either from independent application or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
 
 * Supporting the association of multiple resources: Elastic IP supports associating, Virtual Machine, container, Load Balancer, and NFV instance, providing access to public network for cloud resources.
 
-* Supporting multiple billing types: Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. Users may choose appropriate billing type as required for their business.
+* Supporting multiple billing types: Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. users can choose appropriate billing type as required for their business.
 
-* Flexible adjustment of bandwidth: Elastic IP supports the adjustment of bandwidth, and users may modify bandwidth based on the requirement for change in business and traffic. The modification will be effective immediately.
+* Flexible adjustment of bandwidth: Elastic IP supports the adjustment of bandwidth, and users can modify bandwidth based on the requirement for change in business and traffic. The modification will be effective immediately.
 
 ## Common Operation
 
@@ -24,14 +24,14 @@ The Elastic IP mainly has the following characteristics:
 	- [Associate Elastic IP](../Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md)
 	- [Disassociate Elastic IP](../Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
 	- [Modify Elastic IP bandwidth](../Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md)
-- View Elastic IP resource information
-	- [View Elastic IP resource information](../Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md)
-- View Elastic IP monitoring information
-	- [View Elastic IP monitoring information](../Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md)
-- View Elastic IP billing information
-	- [View Elastic IP billing information](../Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md)
+- View Elastic IP resource
+	- [View Elastic IP resource](../Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md)
+- View Elastic IP monitoring
+	- [View Elastic IP Monitoring](../Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md)
+- View Elastic IP billing
+	- [View Elastic IP billing](../Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md)
 - Export Elastic IP List
 	- [Export Elastic IP List](../Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md)
 
 ## Billing
-The Elastic IP supports three billing types, i.e. monthly package, pay by configuration, and pay by consumption. For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
+The Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)

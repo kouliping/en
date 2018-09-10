@@ -12,14 +12,14 @@ paths:
   /metrics:
     ###################### Query available monitoring item list based on the product line ######################    
     get:
-      description: Query indicator list available to get monitoring data based on resource type
+      description: Query metric list to get monitoring data list based on product type
       summary: Query available monitoring item list based on the product line
       operationId: describeMetrics
       x-jdcloud-internal: false
       parameters:
       - type: string
         description: |
-          Type of resource: 
+          Product name: 
           vm--> virtual machine
           disk-->cloud disk
           ip--> public IP
@@ -41,7 +41,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
               result:
                 properties:
                   metrics:
@@ -55,8 +55,8 @@ paths:
 
   /metricsForCreateAlarm:
     get:
-      description: Query indicator list available to create monitoring rules based on resource type
-      summary: Query indicator list of available creating monitoring rules
+      description: Query metric list available to create monitoring rules based on resource type
+      summary: Query metric list to create monitoring rules available
       operationId: describeMetricsForCreateAlarm
       x-jdcloud-internal: false      
       parameters:
@@ -83,7 +83,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
               result:
                 properties:
                   serviceCodeList:
@@ -96,10 +96,10 @@ paths:
           description: 'internal server error'
           
   /regions/{regionId}/metrics/{metric}/metricData:
-    ######################View monitoring data of certain resource ######################  
+    ######################Get statistics for the specified metric######################  
     get:
-      description: View certain resource monitoring data, which needs to designate the monitoring indicator and the time range.
-      summary: View monitoring data of certain resource
+      description: Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.
+      summary: Get statistics for the specified metric
       operationId: describeMetricData
       x-jdcloud-internal: false      
       parameters:
@@ -109,7 +109,7 @@ paths:
         in: path
         required: true
       - type: string
-        description: English identifier (id) of monitoring item
+        description: Metric
         name: metric
         in: path
         required: true
@@ -148,7 +148,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
               result:
                 properties:
                   metricDatas:
@@ -172,7 +172,7 @@ paths:
         in: path
         required: true
       - type: string
-        description: English identifier (id) of monitoring item
+        description: Metric
         name: metric
         in: path
         required: true
@@ -217,7 +217,7 @@ paths:
             - requestId
             properties:
               requestId:
-                description: Requested identifier id
+                description: Request ID
                 type: string
               result:
                 properties:

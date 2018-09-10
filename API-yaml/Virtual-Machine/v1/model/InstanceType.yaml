@@ -5,24 +5,24 @@ definitions:
     properties:
       family:
         type: string
-        description: instance
+        description: Instance type
       instanceType:
         type: string
-        description: specification type,  such as g.b1. 2xlge
+        description: Instance type, such as g.b1.2xlarge
       cpu:
         type: integer
-        description: cpu number
+        description: CPU number
       memoryMB:
         type: integer
-        description: memory size
+        description: Memory size
       nicLimit:
         type: integer
-        description: number of elastic network interface supported
+        description: Number of ENI supported
       desc:
         type: string
-        description: description
+        description: Description
       state:
         type: array
         items:
           $ref: "./InstanceTypeState.yaml#/definitions/instanceTypeState"
-        description: specification status
+        description: Instance type status

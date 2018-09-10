@@ -1,27 +1,27 @@
 - name: SSL Digital Certificate
   href: 
-- name: Product Introduction
+- name: Introduction
   items:
    - name: Product Overview
         href: Introduction/Overview.md
-      - name: Core Concept
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
       - name: Basic Architecture
         href: 
         status: 0
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
+      - name: Features
         href: Introduction/Functions.md
-      - name: Product Specification
+      - name: Specifications
         href: 
         status: 0
-      - name: Restraint Instructions
+      - name: Restrictions
         href: 
         status: 0
-      - name: Application Scenario
+      - name: Application Scenarios
         href: Introduction/Application-Scenarios.md
-- name: Product Pricing
+- name: Pricing
   items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
@@ -31,13 +31,13 @@
       - name: Price Overview
         href: 
         status: 0
-      - name: Purchase Procedure
+      - name: Purchase Process
         href: 
         status: 0
-      - name: Renewal Procedure
+      - name: Renew Process
         href: 
         status: 0
-- name: Getting Started Guide
+- name: Getting Started
   items:
       - name: Quickstart Guide
         href: Getting-Started/Getting-Started.md

@@ -1,38 +1,38 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Starting Template
-  description: interface related to starting template
+  title: Start Template
+  description: APIs related to start template
 
 basePath: /regions/{regionId}
 
 paths:
   "/instanceTemplates":
-    ###################### Create Starting Template Interface ######################
+    ###################### Create Start Template API ######################
     post:
       description: |
         Create a start-up template for a specified parameter. The starting template contains most of the configuration parameters when creating a virtual machine,  avoiding repetitive work when creating a virtual machine each time. <br>
         If you create a virtual machine using the starting template,  if you specify that certain parameters conflict with the parameters in the template,  then the newly specified parameters replace the parameters in the template. <br>
         If you create a virtual machine using the starting template,  the database Disks parameter in the template will fail if it is specified that the image ID is not consistent with the image ID in the template. <br>
-        If you create a virtual machine with availability group (Ag),  the parameters in the template associated with Ag are not adjustable,  and only the template should prevail.
+        If the user creates a VM with an availability group (Ag), the parameters in the template associated with the Ag are not adjustable, and only the template should prevail.
       operationId: createInstanceTemplate
       x-jdcloud-internal: true
       parameters:
         - name: instanceTemplateData
           in: body
           required: true
-          description: starting template data
+          description: Start template data
           schema:
             $ref: "../model/InstanceTemplateSpec.yaml#/definitions/instanceTemplateSpec"
         - name: name
           in: query
           type: string
           required: true
-          Description: The name of the starting template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1"> Refer to the public parameter specification </a>.
+          description: Name of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
         - name: description
           in: query
           type: string
-          Description: Start the description of the template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1"> Refer to the public parameter specification </a>.
+          description: Description of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
       responses:
         200:
           description: OK
@@ -57,7 +57,7 @@ paths:
         503:
           description: "Service unavailable"
 
-    ###################### Starting Template List Interface ######################
+    ###################### Start Template List API ######################
     get:
       description: |
         Query start template list
@@ -68,20 +68,20 @@ paths:
           in: query
           type: integer
           default: 1
-          description: "Page; Default is 1"
+          description: "Page; 1 by default"
         - name: pageSize
           in: query
           type: integer
           default: 20
-          description: "Page size; Default is 20;Range of value[10, 100] "
+          description: "Paging size; 20 by default;Value range[10, 100] "
         - name: filters
           in: query
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: |
-            name-Starting template name,  fuzzy match,  support multiple
-            instanceTemplateId-Start template ID,  match exactly,  support multiple
+            name-Start template name, fuzzy match, multiple support
+            instanceTemplateId-Start template ID, exact match, multiple support
       responses:
         200:
           description: OK
@@ -109,7 +109,7 @@ paths:
           description: "Service unavailable"
 
   "/instanceTemplates/{instanceTemplateId}":
-    ######################Starting Template Detail Interface ######################
+    ######################Start Template Detail API ######################
     get:
       description: |
         Query start template details
@@ -136,10 +136,10 @@ paths:
         503:
           description: "Service unavailable"
 
-    ######################Delete Starting Template Interface ######################
+    ######################Delete Start Template API ######################
     delete:
       description: |
-        Delete a StartingTemplate
+        Delete a Start Template
       operationId: deleteInstanceTemplate
       x-jdcloud-internal: true
       responses:
@@ -156,21 +156,21 @@ paths:
         503:
           description: "Service unavailable"
 
-    ######################Modify Starting Template Information Interface ######################
+    ######################Modify Start Template Information API ######################
     patch:
       description: |
-        Modify information for a starting template,  including name,  description
+        Modify the information about a start template,  including name and  description
       operationId: updateInstanceTemplate
       x-jdcloud-internal: true
       parameters:
         - name: description
           in: query
           type: string
-          Description: template description,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1"> Refer to the public parameter specification </a>.
+          description: Template description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.
         - name: name
           in: query
           type: string
-          Description: template name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.
+          description: Template name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.
       responses:
         200:
           description: OK
@@ -187,10 +187,10 @@ paths:
 
 
   "/instanceTemplates/{instanceTemplateId}:verify":
-    ###################### Verify that the starting template is available ######################
+    ###################### API for Verifing the Availability of a Start Template ######################
     get:
       description: |
-        Verify the effectiveness of the starting template
+        Verify the availability of a start template
       operationId: verifyInstanceTemplate
       x-jdcloud-internal: true
       responses:
@@ -215,10 +215,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Geo ID
+    description: Region ID
   instanceTemplate:
     name: instanceTemplateId
     in: path
     required: true
     type: string
-    description: starting template ID
+    description: Start template ID

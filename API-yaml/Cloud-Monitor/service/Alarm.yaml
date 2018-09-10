@@ -73,7 +73,7 @@ paths:
                     description: Paging size
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -107,7 +107,7 @@ paths:
                       type: string 
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -121,7 +121,7 @@ paths:
       x-jdcloud-internal: false
       parameters:
         - type: string
-          description: For rule id to be deleted, use "|” to separate multiple rules
+          description: For rule id to be deleted, use "|" to separate multiple rules
           name: ids
           in: query
           required: true
@@ -132,7 +132,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -157,7 +157,7 @@ paths:
                     $ref: "../model/Alarm.yaml#/definitions/alarm"    
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -183,7 +183,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
               result:
                 type: object
                 properties:
@@ -198,7 +198,7 @@ paths:
   "/alarms/{alarmId}:enable":
     ###################### Enable rules ######################
     post:
-      description: Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the interface.
+      description: Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.
       summary: Enable rules
       operationId: enableAlarm
       x-jdcloud-internal: false
@@ -209,7 +209,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -229,7 +229,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:
@@ -299,7 +299,7 @@ paths:
                     description: Paging size
               requestId:
                 type: string
-                description: Requested identifier id
+                description: Request ID
         400:
           description: "invalid parameter"
         500:

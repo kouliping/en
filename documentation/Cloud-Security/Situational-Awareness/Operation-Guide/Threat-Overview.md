@@ -7,13 +7,13 @@
 ### Glossary
 
 #### Single attack event
-Cover alarm events found by network invasion detection, basic anti-DDoS detection and endpoint security detection. As there is a single event type with clear meaning, such event is named as the single attack event.
+Cover alarm events found by network invasion detection, Basic Anti-DDoS detection and endpoint security detection. As there is a single event type with clear meaning, such event is named as the single attack event.
 
 #### Targeted attack event
 The new attack event provided by JD Cloud and associated in real time based on big data of security threat model is called as the target attack event.
 
 #### Safety engine starting coverage
-It consists of starting coverage of the network invasion detection engine, the basic Anti-DDoS detection engine, the endpoint security detection engine. The network invasion detection engine start coverage=EIP amount of enabled DIDS monitor/total amount of EIP under current use, machine security detection engine starting coverage = amount of cloud servers installed with machine security software/total amount of cloud servers under current user. The starting coverage of basic Anti-DDoS protection is 100% by default, which can’t be adjusted manually. The weight is 1:1:1. The greater the coverage of engine starting monitor, the better the security incident capture capacity. Therefore, the security engine coverage is used for quantifying and balancing the starting rate. The best practice is 100%.
+It consists of starting coverage of the network invasion detection engine, the Basic Anti-DDoS detection engine, the endpoint security detection engine. The network invasion detection engine start coverage=EIP amount of enabled DIDS monitor/total amount of EIP under current use, machine security detection engine starting coverage = amount of cloud servers installed with machine security software/total amount of cloud servers under current user. The starting coverage of Basic Anti-DDoS protection is 100% by default, which can’t be adjusted manually. The weight is 1:1:1. The greater the coverage of engine starting monitor, the better the security incident capture capacity. Therefore, the security engine coverage is used for quantifying and balancing the starting rate. The best practice is 100%.
 
 #### Weaknesses events
 Self-check vulnerability of virtual machine from the view of the defender. Each vulnerability is called as a weakness event.

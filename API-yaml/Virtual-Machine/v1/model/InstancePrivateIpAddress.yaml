@@ -5,7 +5,7 @@ definitions:
     properties:
       instanceId:
         type: string
-        description: virtual machine ID
+        description: VM ID
       privateIpAddress:
         type: string
-        description: The intranet primary IP address in the primary network
+        description: The primary IP address in the primary network interface

@@ -1,4 +1,4 @@
-#Best practice of advanced Anti-DDoS-application security gateway
+#Best practice of Advanced Anti-DDoS-application security gateway
 
 
 **Combine Advanced Anti-DDoS with Application Security Gateway**
