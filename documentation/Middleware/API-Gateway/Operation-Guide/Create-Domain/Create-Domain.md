@@ -25,7 +25,7 @@ The user who opens the JD Cloud Object Storage Service and has no overdue bills
 
 ## Process of Adding New Customized Domain Name
 ### Operation Steps:
-#### STEP1: enter the page of API group details, click customize domain name **tab sign**.
+#### STEP1: enter the page of API group details, click customize domain name **Tab**.
 
 ![Domain list](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-list.png)
 
