@@ -6,9 +6,9 @@ The process of access authorization of API means that the API provider authorize
 
 - API provider authorizes the API group to API caller.
 
-When the customer of API provider or he needs to test the API calling, it is necessary to create the access key as the identity of requester, and then the API provider authorizes the API group to API caller during the access authorization.
+When the customer of API provider or himself needs to test the API calling, it is necessary to create the access key as the identity of requester, and then the API provider authorizes the API group to API caller via access key.
 
-Then, it will be explained in two parts:
+Below, it will be explained in two parts:
 
 
 ## Operational Steps
@@ -22,7 +22,7 @@ Then, it will be explained in two parts:
 ![Create access key](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-add.png)
 
 - After creation of key pair, the system will automatically generate access key ID, API key and API Secret.
-- API caller needs to inform the **APIKey** to API provider, and then the provider perform the authorized access.
+- API caller needs to send **APIKey** to API provider, and then the API provider perform the authorized access to APIKey.
 
 
 ### API provider authorizes the API group to API caller
