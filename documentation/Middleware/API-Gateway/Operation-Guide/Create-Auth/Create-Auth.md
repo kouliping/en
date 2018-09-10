@@ -2,7 +2,7 @@
 
 The process of access authorization of API means that the API provider authorizes API caller to access the API group. The authorization process is divided into two parts:
 
-- API caller creates and provides **Access Key **. The access key (APIKey/APISecret) represents the identity of the requester.
+- API caller creates and provides **Access Key**. The access key (APIKey/APISecret) represents the identity of the requester.
 
 - API provider authorizes the API group to API caller.
 
