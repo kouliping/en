@@ -6,6 +6,7 @@ In the Tagged Resources, you can see all the resources that have been associated
 
 ### Search Resources by ID
 You can search a resource by entering the resource ID in the upper right search box of Tagged Resource and find out which tags the resource is associated to.
+
 ![search](../../../../image/Tag/tagresource/search.png)
 
 ### Filter Resources by Tags
