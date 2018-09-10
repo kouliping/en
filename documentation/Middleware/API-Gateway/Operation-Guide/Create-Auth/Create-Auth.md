@@ -52,9 +52,9 @@ Then click **Create Authorization**, and fill the Access Key or AK offered by AP
 ![Create authorization](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-add.png)
 
 
-#### STEP3: API provider associates the authorization and API group
+#### STEP3: API provider binds the authorization and API group
 
-Click **Associate** to associate the authorization group after creation of key pair.
+Click **Bind** to bind the authorization group after creation of key pair.
 
 ![Associate authorization](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwsq-bd.png)
 
