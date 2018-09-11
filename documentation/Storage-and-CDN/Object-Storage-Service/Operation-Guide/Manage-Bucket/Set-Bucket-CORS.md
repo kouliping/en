@@ -34,7 +34,7 @@ Cross-Origin Resource Sharing (CORS) is a standard cross-origin solution provide
 
 ## The setup process in the console is as follows:
 
-1. Login to the console->Cloud Storage->Space Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
+1. Login to the console->ObjectStorageService->Bucket Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
 
 ![跨域访问设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-037.png)
 
