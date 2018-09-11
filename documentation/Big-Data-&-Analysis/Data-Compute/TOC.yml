@@ -1,19 +1,19 @@
   name: Data Computing Service
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        herf: Introduction/What-Is-Data-Computing-Service.md
-      - name: Product Function
-        herf: Introduction/Functions.md
+        herf: Introduction/Product-Overview.md
+      - name: Features
+        herf: Introduction/Features.md
       - name: Application Scenarios 
         herf: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Overview
         herf: Pricing/Billing-Overview.md
-      - name: Billing Rule
+      - name: Billing Rules
         herf: Pricing/Billing-Rules.md
   - name: Operation Guide
     items:
@@ -43,11 +43,14 @@
         herf: FAQ/JDBC-Connection-FAQ.md
   - name: API Reference
     herf:
+    status: 0 
   - name: SDK Reference
     herf:
-  - name: Relevant Resources
+    status: 0 
+  - name: Related Resources
     items:
-  - name: Document Historical Records
+    status: 0 
+  - name: Document History
     herf: Related-Resources/Document-History.md     
   - name: Service Terms
     herf: Related-Resources/Service-Terms.md           
