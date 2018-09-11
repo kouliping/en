@@ -1,4 +1,4 @@
-# Core Idea
+# Core Concepts
 
 ** Data Sets **
 
