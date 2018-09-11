@@ -1,6 +1,6 @@
 # FAQ
 
-** 1, Q: What is the basic protection application scenario?**
+**1, Q: What is the basic protection application scenario?**
 
 A: JD Cloud Basic Anti-DDoS is applied to attack protection scenarios with the highest attacking flow rate not exceeding 2G. Once the attack flow exceeds the basic protection capability of the machine room, the black hole will be triggered, and the black hole will be triggered to limit the IP of the black hole for a certain period of time.
 
