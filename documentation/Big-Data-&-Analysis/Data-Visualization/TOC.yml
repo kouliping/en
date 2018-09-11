@@ -1,15 +1,15 @@
-- name: Data Visualization Screen
+- name: Data Visualization
   href: 
 - name: Introduction
   items:
     - name: Product Overview
       href: Introduction/What-Is-Data-Screen.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
     - name: Features
-      href: Introduction/Functions.md
+      href: Introduction/Features.md
     - name: Application Scenario 
       href: Introduction/Application-Scenarios.md    
 - name: Pricing
