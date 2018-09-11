@@ -18,7 +18,7 @@ After filtering, the filter criteria you have selected will appear at the top of
 ![filter-search](../../../../image/Tag/tagresource/filter-search.png)
 
 ### Switch Regions/Resources Types
-You can switch the regions or product lines where the resource list displays data by the drop-down box at the upper left of the Tagged Resources list.
+You can switch the regions or product types where the resource list displays data by the drop-down box at the upper left of the Tagged Resources list.
 ![region](../../../../image/Tag/tagresource/region.png)
 
 ### Refresh
