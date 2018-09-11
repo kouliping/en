@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 **Data Synchronization**
 
