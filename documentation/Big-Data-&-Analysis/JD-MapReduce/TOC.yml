@@ -56,8 +56,8 @@
     herf: Best-Practices/JMR-Best-Practice-3.md
 -  name: Troubleshooting
   items:
-  -  name: troubleshooting instructions
-    herf: Troubleshooting/note.md
+  -  name: Instructions
+    herf: Troubleshooting/Instructions.md
 -  name: FAQ
   herf: FAQ/FAQ.md
 -  name: API reference
