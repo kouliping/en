@@ -29,7 +29,7 @@ A: The black hole is triggered when the attack exceeds 2G, and the access to the
 
 A: Include and are not limited to SYN Flood, ACK Floods, TCP Floods, UDP Flood, DNS reflection attacks, NTP reflection attacks, SSDP reflection attacks, and other common attacks.
 
-If the above cannot solve your problem, consult the after-sales of the product:[after-sales consultation](https://ticket.jdcloud.com/myorder/form?cateId=2&questionId=13)
+If the above cannot solve your problem, consult the after-sales of the product: [after-sales consultation](https://ticket.jdcloud.com/myorder/form?cateId=2&questionId=13)
 
 # Related Documents
 
