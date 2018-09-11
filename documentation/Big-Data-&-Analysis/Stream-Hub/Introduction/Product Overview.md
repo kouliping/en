@@ -1,4 +1,4 @@
-## Streaming Data Bus Overview<br>
+## Product Overview<br>
 The Streaming Data Bus is a scalable, distributed, high-throughput messaging service for big data scenarios, providing low-latency message publish and subscribe function to help users quickly build the analysis and applications of streaming data. <br>
 <br>
 The streaming data bus is capable of receiving and processing millions of data and messages per second, and can store and process data sent to the streaming data bus by distributed software and devices, and due to the ability to provide publish / subscribe function at a low latency and on a very high scale, the stream data bus can serve as a data service entry of the big data, and the data collected in the stream data bus can be consumed and used by the downstream service application, such as real-time data processing by stream computing products; meanwhile, the data stored in the streaming data bus can be stored in JD Cloud Storage, data warehouse and other products for persistent storage of data for future analysis. <br>
