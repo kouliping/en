@@ -1,6 +1,6 @@
 # Restriction Description
 
- - Each tag only contains one key and one value. The key and the value shall not be blank. The blanks at the beginning and the end of the key and value will be filtered automatically, and the multiple blanks in the character will be combined into one blank;
+ - Each tag only contains one key and one value. The key and the value shall not be blank. The leading and trailing spaces are automatically filtered, and multiple spaces contained in name characters are automatically processed into one space;
 
  - The key and value of the tag shall be case sensitive, and the tag with different case will be treated as different tag;
 
