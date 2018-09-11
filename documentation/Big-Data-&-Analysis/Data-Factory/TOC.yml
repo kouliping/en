@@ -1,17 +1,17 @@
 - name: Data Factory
   href: 
-- name: Product Introduction
+- name: Introduction
   items:
     - name: Product Overview
-      href: Introduction/What-Is-Data-Factory.md
+      href: Introduction/Product Overview.md
     - name: Core Concept
       href: Introduction/Core-Concepts.md
-    - name: Core Functions
-      href: Introduction/Functions.md
-- name: Product Pricing
+    - name: Features
+      href: Introduction/Features.md
+- name: Pricing
   items:
-    - name: Billing Summary
-      href: Pricing/Overview.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
 - name: Getting-started Guide
   items:
     - name: Summary
