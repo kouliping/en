@@ -26,7 +26,7 @@ Customized domain name is available as access address to the storage file in OSS
   You can associate the customized domain name to the OSS Internet domain name through the console to realize the customized domain name access to the file under the storage space, or you can configure JD Cloud CDN to realize the acceleration function at the same time. Refer to [Internet domain name- endpoint ](https://www.jdcloud.com/help/detail/1177/isCatalog/1)
 
 ## Action steps for associating domain name
-1. Login the console->cloud storage->space management->enter into a Bucket-> space setting, and click “Customized Domain Name”.
+1. Login the console->Object Storage Service->space management->enter into a Bucket-> space setting, and click “Customized Domain Name”.
 2. Click the button of adding the domain name and open the page for associating user’s domain name, as shown in the following figure:
 ![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/TimLine%E5%9B%BE%E7%89%8720180731191346.jpg)
  
