@@ -15,7 +15,7 @@ Reduced Redundancy Storage: reduced redundancy storage provides users with objec
 
 ## Quick navigation
 
-[Billing rules]((../Pricing/Billing-Rules.md)
+[Billing rules](../Pricing/Billing-Rules.md)
 
 [Basic actions of OSS](../Operation-Guide/Sign-Up-Service.md)
 
