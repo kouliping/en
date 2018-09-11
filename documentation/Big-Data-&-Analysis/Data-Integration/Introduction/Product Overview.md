@@ -1,4 +1,4 @@
-# Overview of Data Integration
+# Product Overview
 
 Data integration is a service product of data movement provided by JD Cloud. It can help users to realize the free flow of data. Through data integration, it can easily realize the data synchronization of different type of data resources, such as the data synchronization among the data sources (including object storage service, cloud database, data warehouse, etc.) on Cloud and the data synchronization between local data sources and cloud data sources, and it can realize multi-source data analysis and management.
 
