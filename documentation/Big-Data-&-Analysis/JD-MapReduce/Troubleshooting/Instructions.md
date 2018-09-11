@@ -1,4 +1,4 @@
-# JD MapReduce troubleshooting instructions
+# Instructions
 
 ### Login Method
 JMR cluster nodes support two types of user access, web interface login and SSH login.
