@@ -1,4 +1,4 @@
-## Product Features<br>
+## Features<br>
 **Data Access:**<br>
 A variety of data access methods meet the demands for different scenarios and support SDK, Agent and other data access methods as well as customized topic setup services. <br>
 <br>
