@@ -10,7 +10,7 @@ Currently, only the operation of associate and disassociate the tag by console i
 
 Currently, the sources supported by JD Cloud’s tag management include the types as follows:
 
- - VM
+ - Virtual Machine
  - Cloud Disk Service
  - SQL Server Database
 
