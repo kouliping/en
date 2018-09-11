@@ -1,18 +1,18 @@
 - name: Data Integration
   href: 
-- name: Product Introduction
+- name: Introduction
   items:
     - name: Product Overview
-      href: Introduction/What-Is-Data-Integration.md
-    - name: Core Concept
+      href: Introduction/Product Overview.md
+    - name: Core Concepts
       href: Introduction/Core-Concepts.md
-    - name: Core Functions
-      href: Introduction/Functions.md
-- name: Product Pricing
+    - name: Features
+      href: Introduction/Features.md
+- name: Pricing
   items:
-    - name: Billing Summary
+    - name: Billing Overview
       href: Pricing/Billing-Overview.md
-- name: Getting-started Guide
+- name: Getting Started
   items:
     - name: Instructions
       href: Getting-Started/Guide description.md
