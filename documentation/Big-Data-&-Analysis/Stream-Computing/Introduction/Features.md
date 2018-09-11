@@ -1,4 +1,4 @@
-## Core Function<br>
+## Features<br>
 **Data Access:**<br>
 Seamless integration of the streaming data bus allows you to carry out treatment and analysis to streaming data. <br><br>
 **Reference Data Usage:**<br>
