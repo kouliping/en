@@ -1,7 +1,7 @@
 [
 	{
 		"proGoodTitle":"产品优势",
-		"proNameTitle":"专线连接",
+		"proNameTitle":"专线服务",
 		"proDiffTitle":"VPN",
 		"proGood":"传输带宽高",
 		"proName":"单物理链路最大支持10Gbps的带宽，可满足大数据量业务的客户，支持多条专线做ECMP，在保障服务可用性的基础上叠加扩充带宽上限。",
