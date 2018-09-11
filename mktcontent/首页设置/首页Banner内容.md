@@ -651,5 +651,14 @@
 		"name":"2018年京东云合作伙伴大会",
 		"id":"110",
 		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
+	},
+	{
+		"sub_title":"产业上云数字化转型，云上产业新经济聚集",
+		"image_Url":"//img1.jcloudcs.com/cms/982bf1de-1010-4477-8569-061d64b2daa920180910183303.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/d416c5a9-c10a-4917-9fcf-090c6ea95da620180910183310.png",
+		"name":"京东云产业链生态赋能",
+		"id":"111",
+		"button_title":"查看详情",
+		"main_title":"京东云产业链生态赋能"
 	}
 ]
