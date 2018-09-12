@@ -1,32 +1,32 @@
-name: Blockchain Data Service
+name: Block Chain Data Service
 herf:
 items:
 -
-    name: Product Introduction
+    name: Introduction
     items:
         -
             name: Product Overview
-            herf: Introduction/What-Is-BDS.md 
+            herf: Introduction/Product-Overview.md 
         -
-            name: Core Concept
+            name: Core Concepts
             herf: Introduction/Core-Concepts.md 
         -
             name: Basic Architecture
             herf: Introduction/Basic-Infrastructure.md 
         -
-            name: Product Advantage
+            name: Benefits
             herf: Introduction/Benefits.md 
         -
-            name: Product Function
-            herf: Introduction/Functions.md 
+            name: Features
+            herf: Introduction/Features.md 
         -
-            name: Product Specification
-            herf: Introduction/Specification.md 
+            name: Specifications
+            herf: Introduction/Specifications.md 
         -
-            name: Limitation Description
+            name: Restrictions
             herf: Introduction/Restrictions.md 
 -
-    name: Product Pricing
+    name: Pricing
     items:
         -
             name: Billing Overview
@@ -44,7 +44,7 @@ items:
             name: Renewal Procedure
             herf: Pricing/Renew-Process.md
 -
-    name: Getting-Started Guide 
+    name: Getting-Started 
     items:
         -
             name: Create Instance 
