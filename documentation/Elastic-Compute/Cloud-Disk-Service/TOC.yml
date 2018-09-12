@@ -1,16 +1,16 @@
 
-  name: Cloud Disk
+  name: Cloud Disk Service
   href:
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-CloudDisk.md
+        href: Introduction/Product-Overview.md
       - name: Region and Availability Zone
         href: Introduction/Region-Zone.md       
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Advantage
+      - name: Features
+        href: Introduction/Features.md
+      - name: Benefits
         href: Introduction/Benefits.md
       - name: Application Scenario
         href: Introduction/Application-Scenarios.md
