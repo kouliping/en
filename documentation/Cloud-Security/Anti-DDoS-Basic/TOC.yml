@@ -1,17 +1,17 @@
-name: GRC Foundation Protection
+name: Anti-DDoS Basic
 href: 
 - name: Introduction
   items:
     - name: Product Overview
-      herf: Introduction/What-Is-Basic-Anti-DDoS.md
+      herf: Introduction/Product-Overview.md
     - name: Core Concepts
       herf: Introduction/Core-Concepts.md
-    - name: Infrastructure
+    - name: Basic Infrastructure
       herf: Introduction/Basic-Infrastructure.md
     - name: Benefits
       herf: Introduction/Benefits.md
     - name: Features
-      herf: Introduction/Functions.md
+      herf: Introduction/Features.md
     - name: Specifications
       herf: Introduction/Specification.md
     - name: Restrictions
@@ -41,9 +41,10 @@ href:
   status: 0
 - name: Troubleshooting
   herf:
+  status: 0
 - name: FAQ
   herf: FAQ/FAQ.md
 - name: API reference
   herf:
-    
+  status: 0  
           
