@@ -3,7 +3,7 @@
 - name: Introduction
   items:
     - name: Product Overview
-      href: Introduction/Product Overview.md
+      href: Introduction/Product-Overview.md
     - name: Core Concepts
       href: Introduction/Core-Concepts.md
     - name: Features
@@ -17,11 +17,11 @@
     - name: Instructions
       href: Getting-Started/Guide description.md
     - name: Step 1: Create Data Source Connection
-      href: Getting-Started/create dataSource.md
+      href: Getting-Started/create-dataSource.md
     - name: Step 2: Create Synchronization Task
-      href: Getting-Started/Data sync guide.md
+      href: Getting-Started/Data-sync-guide.md
     - name: Step 3: Set the Cycle of Synchronization Task
-      href: Getting-Started/Scheduling and dependence settings.md
+      href: Getting-Started/Scheduling-and-dependence-settings.md
 - name: Operation Guide
   items:
     - name: Login Console
