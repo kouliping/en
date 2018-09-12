@@ -1,18 +1,18 @@
-  name: Advanced Anti-DDoS
+  name: Anti-DDoS Pro
   href:
   items:
   - name: Introduction
     items:
     - name: Product Overview
-      herf : Introduction/What-Is-Advanced-Anti-DDoS.md.md
+      herf : Introduction/Product-Overview.md
     - name: Core Concepts
       herf: Introduction/Core-Concepts.md
-    - name: Infrastructure
+    - name: Basic Infrastructure
       herf: Introduction/Basic-Infrastructure.md
     - name: Benefits
       herf: Introduction/Benefits.md
     - name: Features
-      herf: Introduction/Functions.md
+      herf: Introduction/Features.md
     - name: Specifications
       herf: Introduction/Specification.md
     - name: Restrictions
