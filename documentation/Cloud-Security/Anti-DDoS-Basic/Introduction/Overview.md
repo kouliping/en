@@ -5,9 +5,9 @@ The basic protection is provided by JD Cloud to public network IP users for free
 
 The basic protection is provided with the following characteristics:
 
-* Automatic open
+* Automatically start
 
-2G basic protection will be opened automatically for users who buy public network IP;
+2G basic protection will be started automatically for users who buy public network IP;
 * Protection against common DDoS attacks
 
 Including but not limited to ICMP Flood, UDP Flood, TCP Flood, SYN Flood, ACK Flood, etc.

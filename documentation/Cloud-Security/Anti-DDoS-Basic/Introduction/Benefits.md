@@ -7,7 +7,7 @@
 
 ## Free of installation
 - Users do not have to purchase expensive cleaning equipments.
-- Anti-DDoS-Basic is opened automatically as long as you are a customer of JD Cloud.
+- Anti-DDoS Basic is opened automatically as long as you are a customer of JD Cloud.
 - Intelligent business learning and configuration protection rules.
 
 ## Precise protection
@@ -15,13 +15,13 @@
 - Recognize attack precisely. Open protection at second-level.
 - Develop clean equipment and algorithms autonomously to ensure a low false kill rate.
 - Single point and multi-point cleaning will not interfere with each other
-- Efficient defense against common DDoS attacks, including but not limited to syc flood, ack flood. Do not have an impact on normal business access.
+- Efficient defense against common DDoS attacks, including but not limited to syc flood, ack flood. No impact on normal business access.
 - Real-time and flexible modification for clean trigger value base on business requirements.
 - Real-time monitoring and displaying the current DDoS attacking data, fast locating the source of attack, monitoring the attack state, shortening the duration of the black hole, and recovering the service as soon as possible.
 
 ## Free Service
 
-- Anti-DDoS Basic is opened for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the Anti-DDoS Pro for free which provides 2G protection capacity at maximum for you free of charge.
+- Anti-DDoS Basic is started for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the Anti-DDoS Pro providing 2G protection capacity at maximum for you free of charge.
 
 ## Related Reference
 

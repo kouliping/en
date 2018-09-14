@@ -1,15 +1,13 @@
 # Product Overview
 
-The foundation protection is a free service launched by JD Cloud users for common cloud attacks. Provides the DDoS attack protection for you, offering up to 2 G attack protection capabilities. You can do it based on
-The business needs to set the trigger value of flow cleaning, so that the common security attack will not threaten your business and safeguard your business security.
+The Anti-DDoS Basic is a free service launched for JD Cloud users to against common cloud attacks. DDoS attack protection is provided for you, offering up to 2G attack protection capabilities. You can set the trigger value of flow cleaning based on business, so that the common DDoS attack will not threaten your business, thus your business security is safeguarded.
 
-The product characteristics of # # foundation protection are as follows
+## The product characteristics of Anti-DDoS Basic are as follows
 
-** 1: Support a variety of flood attack defense **: It can effectively resist SYN Flood, UDP Flood, ACK Floods, ICMP Flood, and so on, and can effectively resist SYN Flood, UDP Flood, ACK Floods, and so on.
-Attack. And the base protection capability of 2g is maximum supported.
+**1: Support a variety of flood attack defense**: Precise recognization of traffic characteristics. Effective resistance against SYN Flood, UDP Flood, ACK Floods, ICMP Flood, and so on. Up to 2G protection capability at maximum.
 
-**: free use **: If you are users of JD Cloud, you can use JD Cloud free of charge to protect your business.
+**2: Free of charge**: If you are users of JD Cloud, you can use Anti-DDoS Basic service provided by JD Cloud for free to protect your business.
 
-# # use scenario
+## Apply scenario
 
-All the users suffering from the attacks, if you are the customers of JD Cloud, JD Cloud will provide you with basic personal safety protection free of charge.
+All the users suffering from the attacks, if you are the customers of JD Cloud, JD Cloud will provide you with Anti-DDoS Basic free of charge.
