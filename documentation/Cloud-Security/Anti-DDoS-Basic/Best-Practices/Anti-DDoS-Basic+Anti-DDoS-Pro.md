@@ -1,6 +1,6 @@
-# Anti-DDoS Basic + Anti-DDoS Pro-linkage scheme
+# Anti-DDoS Basic + Anti-DDoS Pro linkage scheme
 
-The Basic Anti-DDoS is a free service that JD Cloud provides to counter common cloud attacks. Provide up to 2G attack protection capabilities. For a DDoS attack that exceeds 2G attack traffic, a black hole is triggered, leading to that normal business cannot be accessed. In this case, the user can solve the problem by deploying the basic protection plus IP high anti-linkage way. Under the condition that the attacking flow rate is less than 2G, the basic protection can finish the cleaning of the attack flow rate, and the cleaned flow rate can be re-injected. The attack flow exceeds 2G to Advanced Anti-DDoS, and is protected by Advanced Anti-DDoS.
+The Anti-DDoS Basic is a free service provided for JD Cloud users to against common DDoS attacks, providing up to 2G attack protection capability. DDoS attack traffic over 2G triggers a black hole, leading to a result that normal business cannot be accessed. This situation can be solved by deploying the Anti-DDoS Basic plus Anti-DDoS Pro linkage scheme. Anti-DDoS Basic can finish the cleaning of the attack traffic below 2G and reinjecting the cleaned traffic. When attack traffic exceeds 2G, protection is provided by Anti-DDoS Pro.
 
 ## Protection Structure
 
@@ -9,12 +9,12 @@ The Basic Anti-DDoS is a free service that JD Cloud provides to counter common c
 
 # # Scheme Advantages
 
-1. Basic protection can provide basic detection and protection capability, and when the attack flow exceeds the attack threshold of 2G, it is migrated to the cloud IP high anti-linkage, and the cooperative defense mode can meet the independent and controllable regulatory requirements of  data from the government and the financial industry.
-2. CNNAME access, one-click automatic cloud uploading, simple configuration, reduces works of operation and maintenance personnel.
+1. Anti-DDoS Basic provides basic detection and protection. When attack traffic exceeds the attack threshold of 2G, traffic migrates to the Anti-DDoS Pro. This cooperative defense mode can meet the independent and controllable regulatory requirements of  data from the government and the financial industry.
+2. Automatic access with CNNAME by one-click. Simple configuration. Reduction of works for operation and maintenance personnel.
 
-## Advanced Anti-DDoS
+## Anti-DDoS Pro
 
-The Basic Anti-DDoS is the protection services provided by JD Cloud for the users free of charge. If you need the Advanced Anti-DDoS service provided by JD Cloud, you need to buy JD Cloud Advanced Anti-DDoS as needed. After you purchase it, you will be able to get Advanced Anti-DDoS services from JD Cloud.
-The Advanced Anti-DDoS purchase window is as follows.
+The Anti-DDoS Basic is the protection service provided by JD Cloud for users free of charge. If you need the Anti-DDos Pro service provided by JD Cloud, you should buy JD Cloud Anti-DDoS Pro. After purchasing, you will be able to get Anti-DDoS Pro service from JD Cloud.
+The Anti-DDoS Pro purchase window is as follows.
 
-For Advanced Anti-DDoS purchase window, see: [IP High Guard](https://www.jdcloud.com/products/ipanti)
+For Anti-DDoS Pro purchase window, see: [Anti-DDos Pro](https://www.jdcloud.com/products/ipanti)
